@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="840" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <h3><a name="top"></a>Duty Types</h3>
+        <h4>Work-flow to Use Duty Types</h4>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">Use <span class="bold">Add Preference</span> to obtain a baseline dialog that sets Duty Types</li>
+            <li class="Bullet_Level_1">Repeat <span class="bold">Add Preference</span>  for additional instances of the baseline dialog</li>
+        </ul>
+        <h4>Preference Overview</h4>
+        <p class="BodyText">The Duty Types are intended to "guide" the Driver optimization to prefer </p>
+        <p class="BodyText">This preference defines all of the possible duty types over a 24 hour period. To achieve full coverage you will need to use multiple instances - for example, Morning, Noon, Night , ... To ensure that you have no gaps, there is a small fall-back section appended to the preference.</p>
+        <p class="BodyText">The preference defines duties by setting up time constraints for work time and splits. The penalty field for each duty functions as a "duty cost".</p>
+        <h4>Add Preference Dialog</h4>
+        <p class="BodyText"><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_10080.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-1: "><a name="Duty"></a>Duty Types - Full dialog</p>
+        <p class="BodyText"><span class="bold">Duty</span>: Enter a duty name. It appears in a Drivers Gantt information box. It also appears in the KPI histogram showing the number of duties by duty type. See <MadCap:xref href="../../03_Technical_Reference/TR_KPI_Window.htm#Distribu" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Distribution of Driver Duties by Duty Type</span></b></MadCap:xref>. </p>
+        <p class="BodyText"><span class="bold">Description</span> is optional.</p>
+        <p class="BodyText">Look at the right hand section of <MadCap:xref href="#Duty" class="figure_caption">Figure 1-1</MadCap:xref>:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10080_02.png" />
+        </p>
+        <p class="BodyText">To enable any of these fields check the box to their left.</p>
+        <div class="note">
+            <p class="textInDiv">The following fields are expressed as ranges rather than as a single value reflecting the purpose of the preference: To Guide the Optimizer rather than set rules like in the <MadCap:xref href="PO_02_Drv_Work_Limitations.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Work Limitation</span></b></MadCap:xref> preference.</p>
+        </div>
+        <p class="BodyText"><span class="bold">Start </span>is the clock time range within which the duty must commence. For example,</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10080_03.png" />
+        </p>
+        <p class="BodyText"><span class="bold">End</span> is the clock time range within which it must finish.</p>
+        <p class="BodyText"><span class="bold">Paid </span>is the paid time duration range of a duty.</p>
+        <p class="BodyText"><span class="bold">Work</span> is the work time duration range of a duty  net of splits break time.
+</p>
+        <p class="BodyText"><span class="bold">Length</span> is the same as <span class="bold">Work </span>but it includes split break times.        </p>
+        <p class="BodyText">Next, look at the left   hand section of <MadCap:xref href="#Duty" class="figure_caption">Figure 1-1</MadCap:xref>:</p>
+        <p class="BodyText"><span class="bold">Split</span>: If we require a Duty Type without split breaks, set <span class="bold">Split </span>to No. It results in a reduced display:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10080_05.png" class="PageMaxWidth">
+            </img>
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-2: ">Reduced Duty Types display - no split</p>
+        <p class="BodyText">Setting <span class="bold">Split </span>to Either tells the Optimizer that we are indifferent to splits for this Duty Type.</p>
+        <p class="BodyText">Setting <span class="bold">Splits </span>to Yes opens a further display segment to specify the split details:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10080_04.png" />
+        </p>
+        <p class="BodyText"><span class="bold">Start </span>is the clock time range within which the split break time must commence. For example,</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10080_03.png" />
+        </p>
+        <p class="BodyText"><span class="bold">End</span> is the clock time range within which it must finish.</p>
+        <p class="BodyText"><span class="bold">Duration </span>is the time interval range for the split break time.</p>
+        <p class="BodyText">We do not want a split break before a minimum amount of work time - the first run length.</p>
+        <p class="BodyText"><span class="bold">First run length</span>  provides a duration range for the first work piece .</p>
+        <p class="BodyText"><span class="bold">Allowed </span>is set to Yes by default. It directs the Optimizer to allow this Duty Type when it can make a match. Setting it to No, directs the optimizer to disallow a duty matching this Duty Type.</p>
+        <p class="BodyText"><span class="bold">Penalty</span>: The penalty is the cost of using this Duty Type.</p>
+        <p class="BodyTextBold">The fall-back Display:</p>
+        <p class="BodyText">The fall-back section appears at the bottom of all instances of this preference. It is the small panel at the bottom of <MadCap:xref href="#Duty" class="figure_caption">Figure 1-1</MadCap:xref>:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10080_06.png" />
+        </p>
+        <p class="BodyText">It is a default duty type to fill out gaps in any 24 hour period. You can prevent its use by setting <span class="bold">Allowed </span>to No. You can also set a penalty for using it.</p>
+        <div class="note">
+            <p class="textInDiv">Disallowing the fall-back is not advised.</p>
+        </div>
+        <p class="BodyText">Here is what the fall-back looks like at the end of an actual Duty Types Preference:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10080_01.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">This particular schedule uses eight out of 10 named Duty Types, which appear in the Duty types KPI Histogram (see <MadCap:xref href="../../03_Technical_Reference/TR_KPI_Window.htm#Distribu" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Distribution of Driver Duties by Duty Type</span></b></MadCap:xref>):</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10080_07.png" class="KPI_Histogram" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">You may create additional instances of this preference for different Duty Types. However, there are no Edit Filters and you should take care to ensure consistency between instances.</li>
+            <li class="Bullet_Level_1">There are currently no additional <MadCap:variable name="Optibus_General.CompanyName" /> templates available</li>
+        </ul>
+    </body>
+</html>

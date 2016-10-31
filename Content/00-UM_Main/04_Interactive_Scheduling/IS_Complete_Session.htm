@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="834" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <h2><a name="Completi"></a>Completing the Edit Session</h2>
+        <h3>Before Completing the Session</h3>
+        <p class="BodyText">Almost any change to the drivers schedule has some effect on the vehicles schedule. Consider the example in <MadCap:xref href="IS_DG_Move_Trip.htm#Moving" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Moving a single trip</span></b></MadCap:xref>:</p>
+        <p class="BodyText">Here is part of the changed Drivers Gantt showing the moved trip, shown in the red box. Notice also the new generated  sign-off immediately after the trip.</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_20360.png" class="PageMaxWidth">
+            </img>
+        </p>
+        <p class="BodyText">The re-assignment affects the Vehicles schedule: In the Vehicles Gantt, vehicle 3, (which is slotted to do the new trip) and also vehicle 1:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_20370.png" class="PageMaxWidth">
+            </img>
+        </p>
+        <p class="BodyText">In the end vehicle 3 does not do it. </p>
+        <p class="BodyText">What you see in the edit stack are minimal vehicle schedule changes. In an <span class="bold">Assign Vehicles</span> run, the changes will flow to other vehicles. To see the actual result, click the <span class="bold">Assign Vehicles</span> button. We will not display it here. The new trip has been assigned to vehicle 88. An examination of the KPIs shows that the change has increased the vehicles count from 87 to 89.</p>
+        <h3><a name="Using"></a>Using the Assign Vehicles Button</h3>
+        <p class="BodyText">To complete any interactive scheduling session, click the <span class="bold">Assign Vehicles</span> button. </p>
+        <p class="BodyText">Advanced usage is available by opening button's context menu:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_20210.png" style="width: 298px;height: 229px;">
+            </img>
+        </p>
+        <p class="BodyTextBold">Regeneration duty IDs</p>
+        <p class="BodyText">If you have moved trips or added new elements youcan choose to regenerate some or all of the duty IDs. You can choose between the following:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Modified</span>:  Regenerate duty IDs only for those duties that have been manually modified           </li>
+            <li class="Bullet_Level_1"><span class="bold">New</span>: Regenerate duty IDs only for manually added duties</li>
+            <li class="Bullet_Level_1"><span class="bold">No</span>: The duty IDs will stay the same. There is no regeneration.</li>
+            <li class="Bullet_Level_1"><span class="bold">Mismatch</span>: Change as few duty IDs as possible provided that they conform to the system ID generation rules. (Only non-conforming IDs  are changed. See <MadCap:xref href="../02_Preferences/02_Drivers/PO_02_Drv_Duty_ID_Generator.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Duty ID Generator</span></b></MadCap:xref>.)</li>
+            <li class="Bullet_Level_1"><span class="bold">All</span>: Regenerate all of the duty IDs</li>
+        </ul>
+        <p class="BodyTextBold">Mode:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Quick:</span> The system takes only the duties that have been “touched” and whose vehicles are in the stack (as in the example above) and assigns them with the rest of the duties to vehicles. It attempts to connect them with the other duties to assigned vehicles. It is easier to recognize the changes when you are using the Quick mode. Use it when you do not want a major change in the vehicles schedule and in the appearance of the Drivers Gantt.</li>
+            <li class="Bullet_Level_1"><span class="bold">Full</span>: The system takes all of the duties and assigns them to vehicles. It attempts to connect successive duties (one below the other in the Drivers Gantt) under the same vehicle. (This is how the manual option to move duties and reorder them can affect the vehicles assignment). Use this for the best results when you do not mind that the Gantts will change. </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="440" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <h3><a name="top"></a>Places Grouping</h3>
+        <h4>Work-flow to Use Places Grouping</h4>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">The Places Grouping preference is accessed through <span class="bold">Load Template</span></li>
+            <li class="Bullet_Level_1">There is only one template available, and only one instance of it is permitted</li>
+        </ul>
+        <h4>Preference Overview</h4>
+        <p class="BodyText">"Places " are usually stops and depots. Optimization can be improved by creation of groups of "sufficiently close places" and treating such a group internally, as "one place". This preference sets criteria for "sufficiently close" for place grouping.</p>
+        <h4>Templates Available from <MadCap:variable name="Optibus_General.CompanyName"></MadCap:variable></h4>
+        <h5>Places Grouping</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">As stated in the Overview.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_20190.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Aerial distance sufficient cutoff</span>: Aerial distance less than this is "sufficiently close" to be "the same place"</li>
+            <li class="Bullet_Level_1"><span class="bold">Max aerial distance</span>: Aerial distance more than this is not "the same place"</li>
+            <li class="Bullet_Level_1"><span class="bold">Max deadhead distance</span>: Deadhead distance more than this is not "the same place"</li>
+            <li class="Bullet_Level_1"><span class="bold">Max deadhead time</span>: Deadhead time more than this is not "the same place"</li>
+            <li class="Bullet_Level_1"><span class="bold">Ungenerated deadhead separation</span>: A generated deadhead trip between stwo stops <span class="TBD_Request">without a generated true prpoerty</span> wil never be considered to be in "the same place"</li>
+        </ul>
+        <p>&#160;</p>
+    </body>
+</html>

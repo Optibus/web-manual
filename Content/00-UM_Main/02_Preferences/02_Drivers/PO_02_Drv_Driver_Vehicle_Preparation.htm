@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="732" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <h3>Driver Vehicle Preparation</h3>
+        <h4>Work-flow to Use Boarding Time Relaxation</h4>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">There is currently one <MadCap:variable name="Optibus_General.CompanyName" /> template</li>
+            <li class="Bullet_Level_1">Use <span class="bold">Load Template</span> to set up  the preference</li>
+            <li class="Bullet_Level_1">Repeat <span class="bold">Load Template</span> for additional instances of the template</li>
+        </ul>
+        <h4>Preference Overview</h4>
+        <p>This preference adds driver vehicle preparation time to the beginning of a duty.</p>
+        <div class="note">
+            <ul class="Level_1_inDiv">
+                <li class="Bullet_Level_1">You cannot use Driver Vehicle Preparation together with Pre Trip from the <MadCap:xref href="../01_Vehicles/PO_01_Veh_Pre_Post_Trip.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Pre Post Trip</span></b></MadCap:xref> preference</li>
+                <li class="Bullet_Level_1">You can use it together with driver sign on from the <MadCap:xref href="PO_02_Drv_Driver_Signing.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Driver Signing</span></b></MadCap:xref> preference</li>
+            </ul>
+        </div>
+        <p class="BodyText">Driver vehicle preparation time affects both the Vehicles and Drivers Gantts. It  uses the <img src="../../../Resources/Images/Layout Art/trip_begin_pre.png" style="width: 16px;height: 29px;" /> element. if we set driver vehicle preparation time to 10 min, the associated information box from the Vehicles Gantt looks like this:</p>
+        <p>
+            <img src="../../../Resources/Images/Screenshots/sc_20030_02.png" style="width: 411px;height: 219px;" />
+        </p>
+        <p class="BodyText">If we look at duty 401 in the Drivers Gantt, we see this:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_20030_04.png" style="width: 409px;height: 225px;" />
+        </p>
+        <p>If you also have sign on time, the same element looks like this:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_20030_03.png" style="width: 411px;height: 202px;" />
+        </p>
+        <p>Driver sign on time and driver vehicle preparation are separate and complimentary.</p>
+        <h4>Templates Available from <MadCap:variable name="Optibus_General.CompanyName"></MadCap:variable></h4>
+        <h5><a name="Boarding"></a>Driver Vehicle Preparation</h5>
+        <p class="BodyTextBold">Purpose: </p>
+        <p class="BodyText">As described in the Overview.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_20030_01.png" class="PageMaxWidth">
+            </img>
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Required vehicle preparation length range</span>: You can specify a time range or a single time by setting the same value in both of the range fields. Use a range if you intend to set the next penalty field.</li>
+            <li class="Bullet_Level_1"><span class="bold">Vehicle preparation length range penalty</span>: The penalty you set increases proportionally from zero at the low end of the range to your set value at the high end of the range.</li>
+            <li class="Bullet_Level_1"><span class="bold">Can prepare during idle trip</span>: For example, set this to Yes if you wish to include driver vehicle preparation in depot pull out time</li>
+            <li class="Bullet_Level_1"><span class="bold">Description</span>: An optional field for use in reports. It is not displayed in the Gantts.</li>
+        </ul>
+    </body>
+</html>

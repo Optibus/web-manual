@@ -1,0 +1,39 @@
+Replace a taxi with a deadhead:
+
+1. Replace a taxi with a deadhead at the beginning of the duty:
+Replace the taxi at the beginning of duty 442 with a deadhead and then assign vehicles
+https://training.optibus.co/schedules/S1GyvcBph/gantt?type=duties
+
+2. Replace a taxi with a deadhead at the beginning or ending of a split break
+Replace the taxi with a deadhead at the beginning and ending of the split in duty 401 and then assign vehicles
+https://training.optibus.co/schedules/H1FukUTh/gantt?type=duties
+
+
+Adding / removing a taxi:
+
+1. Removing a taxi:
+Remove the taxi at the beginning or ending (or both) of duty 001 and then assign vehicles
+https://training.optibus.co/schedules/rJmfuQ_an/gantt?type=duties
+
+2. Add a taxi:
+Add a taxi at the beginning of duty 001 and then assign vehicles
+https://training.optibus.co/schedules/ryuwP_Th/gantt?type=duties
+
+
+Using the Assign Vehicles Button
+
+To complete the session you must click the  Assign Vehicles button. An advanced usage is available by opening button's context menu:
+Regeneration duty IDsed
+
+If you have moved trips or added new elements you will have to regenerate some or all of the duty IDs. You can choose between the following:
+
+    Modified – regenerated only the ids of the duties that have been manually modified
+    New – regenerate ids only for new duties that the user manually added
+    No – the duty ids will stay the same, no regeneration
+    Mismatch – Change the minimum number of ids possible as long as they are aligned with the id generation rules (only the id’s that are not aligned are being changed)
+    All – regenerate all of the duty id’s 
+
+Mode:
+
+    Quick: The system takes only the duties that have been “touched” and that their vehicles are in the stack and assigns them with the rest of the duties to vehicles.
+    Full: The system takes all of the duties and assigns them to vehicles – with a preference of connecting duties - that are placed one below the other- under the same vehicle (this is how the manual option to move the duties and reorder them can affect the vehicles assignment). 

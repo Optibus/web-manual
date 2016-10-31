@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="User Guide A4"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  PatchHeadingLevels="true"
+  InjectEmptyPages="true"
+  UseLocalBuildSettings="true"
+  IgnoredCompilerWarnings="20032,20033,20034,20035,20036,20037,20038,20039,20040,20041"
+  OutputFolder="C:\Users\Flare Optibus\Desktop\UM_OnSchedule"
+  MasterToc="/Project/TOCs/TOC PDF_A4.fltoc"
+  OutputFile="UM_[%=Optibus_General.CompanyName%]"
+  ConditionTagExpression="include[General.PDF] exclude[General.Online] "
+  InjectBookHeadings="false"
+  MasterStylesheet="/Content/Resources/Stylesheets/Optibus_Main.css">
+  <PrintedOutput
+    CollapseMargins="true"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Title="[%=Optibus_General.CompanyName%] [%=Optibus_General.ProductName%] [%=Optibus_General.UserGuideTitle%]"
+    Author="DAF/TW" />
+  <PDF
+    ShowUsedBookmarks="false"
+    InitialMagnification="100"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true"
+    CropAndRegistrationMarks="false"
+    ConvertToCMYK="false"
+    PageMode="UseOutlines"
+    PageLayout="OneColumn"
+    ConvertBookmarks="false" />
+  <Variables>
+    <Variable
+      Name="Optibus_General/CityStateZip">9999999</Variable>
+    <Variable
+      Name="Optibus_General/Fax">123456</Variable>
+    <Variable
+      Name="Optibus_General/PhoneNumber">654321</Variable>
+  </Variables>
+</CatapultTarget>

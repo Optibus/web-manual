@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="587" MadCap:lastWidth="622">
+    <head>
+        <link href="../../Resources/TableStyles/Simple.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h2><a name="BM_00070"></a>Using Preferences to Optimize the Schedule</h2>
+        <h3><a name="top"></a>Driver Work Limitations</h3>
+        <p class="BodyText">We will evaluate the cost and other implications of changing driver break conditions.</p>
+        <p class="BodyText">In the main window, click <img src="../../Resources/Images/Layout Art/preferences.png" /> to open Preferences.</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01030.png" />
+        </p>
+        <p class="BodyText">Under <span class="bold">Drivers</span>, open <span class="bold">Work Limitation</span>. Turn on the Breaks preference and add as an example, 1 hour of break time for every 5 work hours, as shown:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01040.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-1: "><a name="Preferen"></a>Preferences: Work Limitation</p>
+        <p class="BodyText">Click <span class="bold">Save</span>, and then  <img src="../../Resources/Images/Layout Art/optibize.png" />. The main differences are, the number of Duties has risen from 153 to 159 and the Total Cost has gone up from $22,770 to $255,023.</p>
+        <p class="BodyText">Further, look at the Drivers Gantt, a segment of which is shown in <MadCap:xref href="#Driver" class="figure_caption">Figure 1-2</MadCap:xref> below:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01100.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-2: "><a name="Driver"></a>Drivers Gantt optimized with Work Limitations</p>
+        <p class="BodyText">Observe that:</p>
+        <ul>
+            <li class="Bullet_Level_1">Each duty has a 1 hour break after 5 hours</li>
+            <li class="Bullet_Level_1">No duty is over 12 hours</li>
+        </ul>
+        <p class="BodyText">We can add flexibility to  this strict arrangement by allowing violation of these rules subject to penalties. Again, open <span class="bold">Preferences</span> and <span class="bold">Work Limitation</span> (<MadCap:xref href="#Preferen" class="figure_caption">Figure 1-8</MadCap:xref>). In the Max. Work Time row, check box next to Flexibility. Change the Flexibility time to 30 min and the penalty to 20 as shown:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01050.png" />
+        </p>
+        <p class="BodyText">Again, <span class="bold">Save </span>and then <img src="../../Resources/Images/Layout Art/optibize.png" />. To see the effect of our change, go to the Drivers Gantt, open the Filter and choose Duties. Set <span class="bold">Duty Type</span> to Long as shown:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01070.png" class="PageMaxWidth" style="width: 412px;height: 102px;" />
+        </p>
+        <p>Now inspect the Drivers Gantt again:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01060.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">Opening any duty information box shows that the Long duties are all between 12 and 12.5 hours.</p>
+        <h3><a name="BM_00060"></a>Block Homogeneity</h3>
+        <p>We next consider the cost of maintaining a homogeneous vehicle schedule.</p>
+        <p class="BodyText">Looking at the optimized Vehicles Gantt, you can see that vehicle 1 for example, has a variety of routes:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01080.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">This presents problems for drivers, it is a cause of delays and is generally difficult to operate. How much does it cost to make the Vehicle schedule homogeneous?</p>
+        <p class="BodyText">We use the Preferences again to try a "What if?" exercise. What is the effect of making urban trips sign homogeneous?</p>
+        <p class="BodyText">Starting with the original first-optimized schedules, we open Preferences, choose the <span class="bold">All </span>view and then <span class="bold">Homogenic Vehicle Schedule</span>. The following is displayed:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01110.png" style="width: 356px;height: 258px;" />
+        </p>
+        <p class="BodyText">Click <span class="bold">Add Preference</span>. The following is displayed:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01120.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">Leave the <span class="bold">Criterion </span>as Sign and click the <span class="bold">Edit Filters</span> button. The center part of the display changes as follows:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01130.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">You can apply the preference to within a time range or outside it and you can restrict it to one or more vehicle types. You can also use <span class="bold">Expert </span>mode to create a custom filter. For our purposes, click Vehicle Type and chose <span class="bold">Urban</span>.</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01140.png" style="width: 510px;height: 157px;" />
+        </p>
+        <p class="BodyText">Click the <span class="bold">Close </span>button, and then click the <span class="bold">Save</span> button at the bottom right of the Preference window. Click <img src="../../Resources/Images/Layout Art/optibize.png" /> . Filter the Vehicles Gantt for Urban vehicles:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01150.png" class="PageMaxWidth" style="width: 405px;height: 96px;" />
+        </p>
+        <p>We see that the Urban vehicles are sign-homogenic:</p>
+        <p>
+            <img src="../../Resources/Images/Screenshots/sc_01160.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText"> It is instructive to compare some of the KPIs before and after the change:</p>
+        <table style="caption-side: top;border-left-style: solid;border-left-width: 1px;border-right-style: solid;border-right-width: 1px;border-top-style: solid;border-top-width: 1px;border-bottom-style: solid;border-bottom-width: 1px;border-collapse: collapse;margin-left: 0;margin-right: auto;width: 636px;mc-table-style: url('../../Resources/TableStyles/Simple.css');" class="TableStyle-Simple" cellspacing="0">
+            <caption class="TableCaption" MadCap:autonum="Table 1-1: ">KPI Partial Comparison - pre and post optimization</caption>
+            <col style="width: 198px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 150px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 156px;" class="TableStyle-Simple-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Simple-Head-Header1">
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                        <p class="TableHeadingLeft">KPI</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                        <p class="TableHeadingLeft">Pre Optimization</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadD-Column1-Header1">
+                        <p class="TableHeadingLeft">Post Optimization</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">Duties</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">153</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                        <p class="TableText">152</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">Vehicles</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">87</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                        <p class="TableText">91</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1">
+                        <p class="TableText">Total Cost</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1">
+                        <p class="TableText">$246,189</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                        <p class="TableText">$248,802</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="BodyText">Notice that the number of vehicles has increased along with the Total Cost.</p>
+        <p class="BodyText">Let us next try a near-homogenic schedule: We prefer that vehicles have a single route but some may have more than one if there is a cost saving. We can achieve this by using a penalty of 20 instead of a constraint:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01170.png" class="PageMaxWidth" style="width: 508px;height: 246px;" />
+        </p>
+        <p>Here is part of the Vehicles Gantt:</p>
+        <p>
+            <img src="../../Resources/Images/Screenshots/sc_01180.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">Notice that Vehicles 65 and 71 have two routes.</p>
+        <p class="BodyText">Finally notice the changes in the KPIs:</p>
+        <table style="caption-side: top;border-left-style: solid;border-left-width: 1px;border-right-style: solid;border-right-width: 1px;border-top-style: solid;border-top-width: 1px;border-bottom-style: solid;border-bottom-width: 1px;border-collapse: collapse;margin-left: 0;margin-right: auto;width: 636px;mc-table-style: url('../../Resources/TableStyles/Simple.css');" class="TableStyle-Simple" cellspacing="0">
+            <caption class="TableCaption" MadCap:autonum="Table 1-2: ">KPI Partial Comparison - pre and post optimization</caption>
+            <col style="width: 198px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 150px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 156px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 156px;" class="TableStyle-Simple-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Simple-Head-Header1">
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                        <p class="TableHeadingLeft">KPI</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                        <p class="TableHeadingLeft">Pre Optimization</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                        <p class="TableHeadingLeft">Post Optimization - Strict Homogeneity</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadD-Column1-Header1">
+                        <p class="TableHeadingLeft">
+                        Post Optimization - Flexible Homogeneity
+                    </p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">Duties</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">153</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">152</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                        <p class="TableText">152</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">Vehicles</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">87</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">91</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                        <p class="TableText">87</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1">
+                        <p class="TableText">Total Cost</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1">
+                        <p class="TableText">$246,189</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1">
+                        <p class="TableText">$248,802</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                        <p class="TableText">$246,285</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="BodyText">The  Total Cost and the number of vehicles have dropped from the strict homogenic case. The outcome is better than strict homogeneity.</p>
+        <h3>Widespread</h3>
+        <p class="BodyText">What if we generate breaks between trips, and how much will it cost?</p>
+        <p class="BodyText">First, observe that in our basic Drivers Gantt of <MadCap:xref href="QT_Driver_Gantt.htm#BM_00050" class="figure_caption">Figure 1-1</MadCap:xref> the break between trips are very short. We will add a widespread of 15 minutes.</p>
+        <p class="BodyText">In Preferences, set <span class="bold">All</span>, go to <span class="bold">Vehicles</span> and choose <span class="bold">Widespread</span>:</p>
+        <p>
+            <img src="../../Resources/Images/Screenshots/sc_01190.png" style="width: 450px;height: 285px;" />
+        </p>
+        <p class="BodyText">We will use a pre-supplied Template. Click <span class="bold">Load Template</span>:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01200.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">We will use an <MadCap:variable name="Optibus_General.CompanyName" /> supplied template. Click the <MadCap:variable name="Optibus_General.CompanyName" /> button:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01210.png" class="PageMaxWidth" style="width: 528px;height: 386px;" />
+        </p>
+        <p class="BodyText">Choose <span class="bold">Widespread by route group</span>:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01220.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">Change the Time to 15 minutes. Click Route group and choose <span class="bold">Citylight</span> as shown:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01230.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">As usual, save and optimize.</p>
+        <p class="BodyText">The Citylight route group contains routes 2 and 5. Now, filter the Vehicles Gantt to the Citylight route group:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01240.png" style="width: 521px;height: 142px;" />
+        </p>
+        <p class="BodyText">Click <span class="bold">Apply</span>. Here is the outcome:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01250.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">Notice that trips with signs 2 and 5 have a widespread of 15 minutes.</p>
+        <p class="BodyText">Finally, here are the changes to the KPIs:</p>
+        <table style="caption-side: top;border-left-style: solid;border-left-width: 1px;border-right-style: solid;border-right-width: 1px;border-top-style: solid;border-top-width: 1px;border-bottom-style: solid;border-bottom-width: 1px;border-collapse: collapse;margin-left: 0;margin-right: auto;width: 636px;mc-table-style: url('../../Resources/TableStyles/Simple.css');" class="TableStyle-Simple" cellspacing="0">
+            <caption class="TableCaption" MadCap:autonum="Table 1-3: ">KPI Partial Comparison - pre and post optimization</caption>
+            <col style="width: 198px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 150px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 156px;" class="TableStyle-Simple-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Simple-Head-Header1">
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                        <p class="TableHeadingLeft">KPI</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                        <p class="TableHeadingLeft">Pre Optimization</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadD-Column1-Header1">
+                        <p class="TableHeadingLeft">Post Optimization - Widespread</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">Duties</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">153</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                        <p class="TableText">158</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">Vehicles</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">87</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                        <p class="TableText">91</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1">
+                        <p class="TableText">Total Cost</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1">
+                        <p class="TableText">$246,189</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                        <p class="TableText">$251,398</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="BodyText">As to be expected, forcing a Widespread of 15 minutes has increased the number of Duties, Vehicles and the Total Cost.</p>
+        <h3>Depots</h3>
+        <p class="BodyText">We next examine the financial effect of adding another depot.</p>
+        <p class="BodyText">You can change a depot or add a new depot. You can also define a global vehicle capacity or capacity per vehicle type. We will reduce the capacity of the one exciting depot and add a new depot.</p>
+        <p class="BodyText">In Preferences, set <span class="bold">All </span>and choose <span class="bold">Depots</span> and <span class="bold">Depot Capacity</span>.</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01310.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-3: "><a name="The"></a>The original single depot</p>
+        <p class="BodyText">Change the Global Capacity from 140 to 100  and click <span class="bold">Add Preference</span>. Change the <span class="bold">Stop</span> to the last stop in the drop down list as shown, and change the Global Capacity to 20:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01320.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">Save and optimize. In the Vehicles Gantt, we see that only the last vehicle uses the new depot. You can check that all of the blocks up to and including 86, terminate at the original depot shown in <MadCap:xref href="#The" class="figure_caption">Figure 1-3</MadCap:xref>. Block 87 terminates at the new depot:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01330.png" />
+        </p>
+        <p class="BodyText">Here are the changes to the KPIs:</p>
+        <table style="caption-side: top;border-left-style: solid;border-left-width: 1px;border-right-style: solid;border-right-width: 1px;border-top-style: solid;border-top-width: 1px;border-bottom-style: solid;border-bottom-width: 1px;border-collapse: collapse;margin-left: 0;margin-right: auto;width: 636px;mc-table-style: url('../../Resources/TableStyles/Simple.css');" class="TableStyle-Simple" cellspacing="0">
+            <caption class="TableCaption" MadCap:autonum="Table 1-4: ">KPI Partial Comparison - pre and post optimization</caption>
+            <col style="width: 198px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 150px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 156px;" class="TableStyle-Simple-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Simple-Head-Header1">
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                        <p class="TableHeadingLeft">KPI</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                        <p class="TableHeadingLeft">Pre Optimization</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadD-Column1-Header1">
+                        <p class="TableHeadingLeft">Post Optimization - New Depot</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">Duties</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">153</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                        <p class="TableText">154</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">Vehicles</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">87</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                        <p class="TableText">87</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1">
+                        <p class="TableText">Total Cost</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1">
+                        <p class="TableText">$246,189</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                        <p class="TableText">$243,439</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3><a name="BM_00080"></a>Adding Pre Trip and Post trip Elements</h3>
+        <p>Pre and Post trip elements are used for vehicle preparation and end of day stand-down.</p>
+        <p class="BodyText">In the Gantts of <MadCap:xref href="QT_Choosing_Dataset.htm#BM_00010" class="figure_caption">Figure 1-3</MadCap:xref> and <MadCap:xref href="QT_Driver_Gantt.htm#BM_00050" class="figure_caption">Figure 1-1</MadCap:xref> there is no provision for Pre trip and Post trip activity. We can add them using the Preferences.</p>
+        <p class="BodyText">Open the Preferences, set <span class="bold">All.</span> Under Vehicles, choose <span class="bold">Pre Post Trip</span> and <span class="bold">Load Template</span>. Under the <MadCap:variable name="Optibus_General.CompanyName" /> tab, choose, <span class="bold">Pre\Post trip - General</span>.</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01260.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">The template data entry form is displayed:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01270.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">Set the Pre trip time to 10 minutes, the Post trip time to 7 minutes and leave all of the other items as is. </p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01280.png" />
+        </p>
+        <p class="BodyText"> Save and optimize. Here for example is part of the Vehicles Gantt:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01290.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">Confirm by opening a Pre trip information box:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01520.png" style="width: 412px;height: 184px;" />
+        </p>
+        <p>The Pre trip is 10 minutes as expected.</p>
+        <p class="BodyText">Here is part of the Drivers Gantt:</p>
+        <p>
+            <img src="../../Resources/Images/Screenshots/sc_01300.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">Here are the changes in the KPIs:</p>
+        <table style="caption-side: top;border-left-style: solid;border-left-width: 1px;border-right-style: solid;border-right-width: 1px;border-top-style: solid;border-top-width: 1px;border-bottom-style: solid;border-bottom-width: 1px;border-collapse: collapse;margin-left: 0;margin-right: auto;width: 636px;mc-table-style: url('../../Resources/TableStyles/Simple.css');" class="TableStyle-Simple" cellspacing="0">
+            <caption class="TableCaption" MadCap:autonum="Table 1-5: ">KPI Partial Comparison - pre and post optimization</caption>
+            <col style="width: 198px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 150px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 156px;" class="TableStyle-Simple-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Simple-Head-Header1">
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                        <p class="TableHeadingLeft">KPI</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                        <p class="TableHeadingLeft">Pre Optimization</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadD-Column1-Header1">
+                        <p class="TableHeadingLeft">Post Optimization - Add Pre/Post Trip</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">Duties</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">153</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                        <p class="TableText">156</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">Vehicles</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">87</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                        <p class="TableText">87</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">Work Time</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableText">1330</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                        <p class="TableText">1355</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1">
+                        <p class="TableText">Total Cost</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1">
+                        <p class="TableText">$246,189</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                        <p class="TableText">$247,922</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="BodyText">The addition of the Pre and Post trips adds 17 minutes per vehicle to the work time, increasing the Total <span class="bold" style="font-weight: normal;">C</span>ost. It also creates the need for additional Duties.</p>
+    </body>
+</html>

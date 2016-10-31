@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="481" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <h3>Driver Split Duty</h3>
+        <h4>Work-flow to Use Driver Duty Work Time</h4>
+        <p class="BodyText">The Driver Split Duty preference is accessed through <span class="bold">Load Template</span> and only one instance of it is permitted.</p>
+        <h4>Preference Overview</h4>
+        <p class="BodyText">This preference sets basic driver split duty parameters for the schedule. It includes the minimum break eligible to be defined as a split, the minimum required work time at either end of a split and the largest distance a driver may travel during a split break to the start point of his next trip.</p>
+        <h4>Templates Available from <MadCap:variable name="Optibus_General.CompanyName" /></h4>
+        <h5>Split Duty</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">As stated in the Overview</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_10110.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Min split break</span>: The minimum break length that can be considered a split break</li>
+            <li class="Bullet_Level_1"><span class="bold">Split break compensation</span>: Driver compensation as an hourly wage for split break time for which he is otherwise, not fully paid</li>
+            <li class="Bullet_Level_1"><span class="bold">Preferred piece length</span>: A piece is the preferred (minimum) work time at either end of the split break</li>
+            <li class="Bullet_Level_1"><span class="bold">Piece length penalty</span>: This is the maximum penalty that is incurred if either piece length is too small. The actual penalty is proportional to the violation subject to this maximum. For example, for a <span class="bold">Preferred piece length</span> of four hours, and an actual piece length of 3 hours, the penalty is (4 - 3) / 4 * 50 = 12.5. It increases proportionally as the actual piece lengthdecreases.</li>
+            <li class="Bullet_Level_1"><span class="bold">Max swing distance</span>: This is the maximum allowable distance a driver may travel  between a split start and split end. For example, a driver completes the first part of his duty before a split break. During the split break he is required to travel to a different location to commence the second part of his duty. The distance he travels may not exceed the <span class="bold">Max swing distance</span>.</li>
+        </ul>
+        <div class="caution">
+            <p class="textInDiv"><span class="bold">Edit Filters </span>should not be used with this template.</p>
+        </div>
+    </body>
+</html>

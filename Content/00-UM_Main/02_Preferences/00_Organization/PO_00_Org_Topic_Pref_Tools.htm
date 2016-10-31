@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="807" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <h4><a name="top"></a>Individual Preference Tools</h4>
+        <h5>Renaming a Preference Instance</h5>
+        <p class="BodyText">Mousing over the current preference name, displays the <img src="../../../Resources/Images/Layout Art/icons/edit-dark.png" />edit button. Click it to make the name field editable.</p>
+        <h5><a name="Enable"></a>Enable and Disable</h5>
+        <p class="BodyText">Clicking the <img src="../../../Resources/Images/Layout Art/disable.png" /> disable button disables the preference to which it is attached. The preference will be grayed out. The <img src="../../../Resources/Images/Layout Art/enable.png" /> enable button appears only on a disabled preference instance. Click it to enable the preference instance. </p>
+        <h5>Delete</h5>
+        <p class="BodyText">The <img src="../../../Resources/Images/Layout Art/trash.png" /> deletes. There is no un-delete. If you are not sure about keeping or discarding a preference instance, disable it until you are certain.</p>
+        <h5><a name="Edit"></a>Edit Filters</h5>
+        <p class="BodyText">This facility is nearly always available when you add or edit a preference:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01640.png" class="PageMaxWidth">
+            </img>
+        </p>
+        <p class="BodyText">Three filters are available:</p>
+        <p class="BodyText">The <span class="bold">Time Intervals</span> filter allows you to limit the operation of your preference to one or more time ranges:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01650.png" class="PageMaxWidth">
+            </img>
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-1: "><a name="Preferen"></a>Preference Edit Filters</p>
+        <p class="BodyText">Notice the use of the <span class="bold">Next Day</span> check boxes to cater for 24 hour spill-over. They effectively enable you to set time ranges beyond midnight of the current day. This example creates two time ranges: </p>
+        <ol>
+            <li>From 13:00 each day to 01:00 the following day</li>
+            <li>From 06:00 to 10:00 each day</li>
+        </ol>
+        <p class="BodyText">By default, the preference instance will be operative only within the range(s) that you specify.</p>
+        <p class="BodyText">You can reverse the ranges using the <span class="bold">Outside Ranges</span> button. In our example, this would cause the preference to be operative as follows:</p>
+        <ol>
+            <li>From the beginning of operations for the schedule to 13:00 each day and then from 01:00 to the end operations time for the schedule.</li>
+            <li>From the beginning of operations for the schedule to 06:00 and from 10:00 to the end operations time for the schedule.</li>
+        </ol>
+        <p class="BodyText">Both range methods may have overlapped time ranges, which will be handled correctly by the system.</p>
+        <p class="BodyText">The  <span class="bold">Vehicle Types</span>  filter allows you to restrict the preference to one or more vehicle types of your choice:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01140.png">
+            </img>
+        </p>
+        <p class="BodyText">The <span class="bold">Expert </span>filter is for Professional Support use only. It's use is covered in <MadCap:xref href="../../03_Technical_Reference/TR_Using_Expert_Mode.htm#Expert2" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Expert Mode for Edit Filters in Add Preference.</span></b></MadCap:xref></p>
+        <div class="note">
+            <p class="textInDiv">The Edit Filters window (<MadCap:xref href="#Preferen" class="figure_caption">Figure 1-1</MadCap:xref>) has its own <span class="bold">Close</span> button. To ensure that your filters are saved with the preference you must click <span class="bold">Close </span>before leaving the window.</p>
+        </div>
+    </body>
+</html>

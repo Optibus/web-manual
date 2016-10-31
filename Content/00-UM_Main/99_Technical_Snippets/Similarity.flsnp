@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="880" MadCap:lastWidth="623">
+    <head>
+    </head>
+    <body>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Trip ID similarity</span>: Consecutive trip IDs are substantially maintained.</li>
+            <li class="Continue_Level_1">
+                <p>A new schedule is <span class="oblique">Trip ID simila</span>r to an existing schedule  if the Trip IDs of any two consecutive trips is maintained.</p>
+            </li>
+            <li class="Continue_Level_1">
+                <p>For example: If Trip ID X is followed by Trip ID Y in the current schedule  and Trip ID X is still followed by Trip ID Y in the new schedule, this is considered to be <span class="oblique">Trip Id similar</span> and no penalty is imposed.</p>
+            </li>
+            <li class="Continue_Level_1">If however, if Trip ID X is followed by Trip ID Y in the current schedule but in the new schedule,  Trip ID X is followed by a different Trip ID Z, this considered to be a violation of Trip ID Similarity. Penalties will always be imposed for violations of Trip ID similarity.</li>
+            <li class="Continue_Level_1">
+                <div class="note">
+                    <p class="textInDiv">The optimization for similarity is applied to pairs of consecutive   trips.</p>
+                </div>
+            </li>
+            <li class="Bullet_Level_1"><span class="bold">Trip start time similarity</span>: Trip start times are substantially maintained.</li>
+            <li class="Continue_Level_1">This is best illustrated by an example. Suppose that -<ul><li class="Continue_Level_1">1.	Trip ID X is followed by Trip ID Y in the current schedule 
+</li><li class="Continue_Level_1">2.	Trip Y starts at 09:30
+</li><li class="Continue_Level_1">3.	Trip start time deviations of more than 10 minutes are considered to be violations of Trip Start Time similarity
+</li><li class="Continue_Level_1">4.	We  require for trip similarity, that the trip following Trip ID X in the new schedule commence no earlier than 09:20 and no later than 09:40 and the route is the same as that of Trip Y.</li><li class="Continue_Level_1">5. A penalty <span class="oblique">will be imposed</span> if either one of the following situations occur in the new schedule:
+<ul class="Level_1"><li class="Bullet_Level_1">	 The route of the trip following Trip X has changed from the route of Trip Y
+in the original schedule</li><li class="Bullet_Level_1">The route of the trip following Trip X remains the same as  the original Trip Y but commences earlier than 09:20 or later than 09:40
+</li></ul></li><li class="Continue_Level_1">Otherwise, we have maintained Trip Start Time Similarity for Trip X and the following trip.</li></ul></li>
+        </ul>
+        <p class="BodyTextBold">About the imposition of penalties: </p>
+        <p class="BodyText">The idea of "substantially" is implemented by applying a cost penalty for deviations from the original schedule as described above. Thus, if you impose a low penalty, you are effectively saying, "I would like the new schedule to be similar, but similarity is less important than my other preferences ." In this case, the optimized schedule may be quite different from the original. If on the other hand, you impose a high penalty for deviations, you are effectively saying, "I would like the new schedule to be similar to the original, if necessary at the expense of my other preferences . In this case, the  optimized schedule may not look very different from the original. </p>
+    </body>
+</html>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="529" MadCap:lastWidth="623">
+    <head>
+        <link href="../../../Resources/TableStyles/Tedmplate_List.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h3>Deadheads Limitation</h3>
+        <h4>Work-flow to Use Deadheads Limitation</h4>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">Use <span class="bold">Load Template</span> to set up the preference for several conditions </li>
+            <li class="Bullet_Level_1">Repeat <span class="bold">Load Template</span> for additional instances of any template</li>
+        </ul>
+        <h4>Preference Overview</h4>
+        <p class="BodyText">This is a set of complimentary preference instances that set distance limits for deadheads and depot pull out and depot pull in trips. It is intended to minimize deadhead distances to keep the vehicles close to their “home” depots.</p>
+        <h4>Templates Available from <MadCap:variable name="Optibus_General.CompanyName"></MadCap:variable></h4>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;caption-side: top;mc-table-style: url('../../../Resources/TableStyles/Tedmplate_List.css');" class="TableStyle-Template_List" cellspacing="0">
+            <caption class="TableCaption" MadCap:autonum="Table 1-1: ">Templates Summary</caption>
+            <col style="width: 3.25cm;" class="TableStyle-Template_List-Column-Column1" />
+            <col style="width: 338px;" class="TableStyle-Template_List-Column-Column1" />
+            <col style="width: 143px;" class="TableStyle-Template_List-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Template_List-Head-Header1">
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Template Name</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Purpose</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadD-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Reference</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Reduce depot checks</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Reduces the duration of the depot optimization by minimizing the number of return depot “candidates”.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Reduce" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Reduce depot checks</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Minimize Vehicle Cruise Restriction</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Set as a constraint, the maximum distance for a deadhead taking the vehicle further away from its "home" depot.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Minimize2" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Minimize Vehicle Cruise Restriction</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyB-Column1-Body1">
+                        <p class="TableTextSmall">Minimize Vehicle Cruise Preference</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyB-Column1-Body1">
+                        <p class="TableTextSmall">Set  the maximum distance for an exit depot deadhead taking the vehicle further away from its "home" depot with a penalty.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyA-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Minimize" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Minimize Vehicle Cruise Preference</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h5 class="Preferences"><a name="Reduce"></a>Reduce depot checks</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Reduces the duration of the depot optimization by minimizing the number of return depot “candidates”.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10050_01.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Depot distance limit</span>: This is the maximum distance for a depot pull out/pull in</li>
+            <li class="Bullet_Level_1"> If you set it to zero, vehicles will always return to their "home" depot</li>
+            <li class="Bullet_Level_1">The unit of distance (Km, miles) depends on your location</li>
+        </ul>
+        <p>&#160;</p>
+        <h5 class="Preferences"><a name="Minimize2"></a>Minimize Vehicle Cruise Restriction</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Set as a constraint, the maximum distance for a deadhead taking the vehicle further away from its "home" depot.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10050_03.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Deadhead distance limit</span>: For this template, this field is a constraint, with a default of 30</li>
+            <li class="Bullet_Level_1">The unit of distance (Km, miles) depends on your location</li>
+        </ul>
+        <h5 class="Preferences"><a name="Minimize"></a>Minimize Vehicle Cruise Preference</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Set  the maximum distance for an exit depot deadhead taking the vehicle further away from its "home" depot with a penalty.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10050_02.png" class="PageMaxWidth">
+            </img>
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">This preference is a flexible version of <MadCap:xref href="#Minimize2" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Minimize Vehicle Cruise Restriction</span></b></MadCap:xref></li>
+            <li class="Bullet_Level_1"><span class="bold">Deadhead distance limit</span>: This field defaults to 30 and is flexible with a <span class="bold">Penalty</span> as set in the following field</li>
+            <li class="Bullet_Level_1">The unit of distance (Km, miles) depends on your location</li>
+        </ul>
+    </body>
+</html>

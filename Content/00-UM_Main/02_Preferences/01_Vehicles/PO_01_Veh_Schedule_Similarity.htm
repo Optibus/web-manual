@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="757" MadCap:lastWidth="622">
+    <head>
+        <link href="../../../Resources/TableStyles/Simple.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/TableStyles/Tedmplate_List.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h3><a name="top"></a>Schedule Similarity</h3>
+        <h4>Prerequisite for Use</h4>
+        <p class="BodyText">This Preference requires that you have an initial customer schedule currently loaded.</p>
+        <h4>Work-flow to Use Schedule Similarity</h4>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">Use <span class="bold">Load Template</span> to set up and modify the preference for a variety of conditions </li>
+            <li class="Bullet_Level_1">Repeat <span class="bold">Load Template</span> for additional instances of any template</li>
+        </ul>
+        <h4><a name="Preferen"></a>Preference Overview</h4>
+        <p class="BodyText">Using this preference, you can control the level of disruption to staff during a schedule change and indeed use it in stages to move from the supplied schedule to a fully optimized schedule.</p>
+        <p class="BodyText">This preference deals with <span class="bold">vehicle schedule similarity</span>. In what follows in this preference, when we refer to a <span class="bold">schedule</span>, the intention is the <span class="bold">vehicle schedule</span> as seen in the Vehicles Gantt.</p>
+        <div class="note">
+            <p class="textInDiv">There is a corresponding preference for crew (driver) schedule similarity. See <MadCap:xref href="../02_Drivers/PO_02_Drv_Crew_Schedule_Similarity.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Crew Schedule Similarity</span></b></MadCap:xref>.</p>
+        </div>
+        <p class="BodyText"><MadCap:variable name="Optibus_General.CompanyName" /> <MadCap:variable name="Optibus_General.ProductName" /> uses two criteria of similarity. The new <span class="bold">schedule</span> is similar to the previous one if <span class="bold">either one</span> of the following hold:</p>
+        <MadCap:snippetBlock src="../../99_Technical_Snippets/Similarity.flsnp" />
+        <p class="BodyText">To demonstrate the concept, we will use the fourth template below, <MadCap:xref href="#Schedule4" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Schedule Similarity - by trip id</span></b></MadCap:xref>. It is the simplest to understand: It sets out to maintain Trip ID similarity. Its only parameter is the penalty. Here are results of setting increasing penalties as expressed by several KPIs:</p>
+        <table style="caption-side: top;border-left-style: solid;border-left-width: 1px;border-right-style: solid;border-right-width: 1px;border-top-style: solid;border-top-width: 1px;border-bottom-style: solid;border-bottom-width: 1px;border-collapse: collapse;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/Simple.css');width: 636px;" class="TableStyle-Simple" cellspacing="0">
+            <caption class="TableCaption" MadCap:autonum="Table 1-1: "><a name="Vehicle"></a>Vehicle Schedule Similarity - KPI Partial Comparison for various penalties</caption>
+            <col style="width: 84px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 92px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 92px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 92px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 92px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 92px;" class="TableStyle-Simple-Column-Column1" />
+            <col style="width: 92px;" class="TableStyle-Simple-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Simple-Head-Header1">
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1" rowspan="2">
+                        <p class="TableHeadingLeftSmall">KPI</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1" rowspan="2">
+                        <p class="TableHeadingLeftSmall">Customer Schedule</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1" rowspan="2">
+                        <p class="TableHeadingLeftSmall">First Optimization</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadD-Column1-Header1" colspan="4">
+                        <p class="TableHeadingLeftSmall" style="text-align: center;">Penalty</p>
+                    </th>
+                </tr>
+                <tr class="TableStyle-Simple-Head-Header1">
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                        <p class="TableHeadingLeftSmall" style="text-align: center;">5</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                        <p class="TableHeadingLeftSmall" style="text-align: center;">30</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                        <p class="TableHeadingLeftSmall" style="text-align: center;">50</p>
+                    </th>
+                    <th class="TableStyle-Simple-HeadD-Column1-Header1">
+                        <p class="TableHeadingLeftSmall" style="text-align: center;">100</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableTextSmall">Duties</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">173</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">153</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">153</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">166</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">168</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyG-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">171</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                        <p class="TableTextSmall">Vehicles</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">95</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">87</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">87</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">87</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">87</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyG-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">90</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="font-weight: bold;">
+                        <p class="TableTextSmall">Vehicle Similarity </p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;font-weight: bold;">
+                        <p class="TableTextSmall">N/A</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;font-weight: bold;">
+                        <p class="TableTextSmall">N/A</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;font-weight: bold;">
+                        <p class="TableTextSmall">2%</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;font-weight: bold;">
+                        <p class="TableTextSmall">29%</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyI-Column1-Row1" style="text-align: right;font-weight: bold;">
+                        <p class="TableTextSmall">51%</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyG-Column1-Row1" style="text-align: right;font-weight: bold;">
+                        <p class="TableTextSmall">78%</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Simple-Body-Row1">
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1">
+                        <p class="TableTextSmall">Total Cost</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">268,959</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">246,189</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">246,532</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">254,551</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyC-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">257,375</p>
+                    </td>
+                    <td class="TableStyle-Simple-BodyA-Column1-Row1" style="text-align: right;">
+                        <p class="TableTextSmall">261,614</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="note">
+            <p class="textInDiv">These results are for a specific schedule and are indicative only.</p>
+        </div>
+        <h4>Templates Available from <MadCap:variable name="Optibus_General.CompanyName" /></h4>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/Tedmplate_List.css');caption-side: top;" class="TableStyle-Template_List" cellspacing="0">
+            <caption class="TableCaption" MadCap:autonum="Table 1-2: ">Templates Summary</caption>
+            <col class="TableStyle-Template_List-Column-Column1" style="width: 3.25cm;" />
+            <col class="TableStyle-Template_List-Column-Column1" style="width: 338px;" />
+            <col class="TableStyle-Template_List-Column-Column1" style="width: 133px;" />
+            <thead>
+                <tr class="TableStyle-Template_List-Head-Header1">
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Template Name</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Purpose</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadD-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Reference</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Schedule Similarity - by route group &amp; trip id</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Create a new schedule to be <span class="bold">Trip ID - similar</span> to the supplied schedule but restricted to a nominated route group. </p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Schedule" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Schedule Similarity - by route group &amp; trip id</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Schedule Similarity - by route group &amp; time</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Create a new schedule to be <span class="bold">Trip Start Time - similar</span> to the supplied schedule for the nominated route group. It attempts prevent trip start time deviations of more than the specified time.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Schedule2" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Schedule Similarity - by route group &amp; time</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Schedule Similarity - by route &amp; time</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Create a new schedule to be <span class="bold">Trip Start Time - similar</span> to the supplied schedule for the nominated route. It attempts prevent trip start time deviations of more than the specified time. </p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Schedule3" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Schedule Similarity - by route &amp; time</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyB-Column1-Body1">
+                        <p class="TableTextSmall">Schedule Similarity - by trip id</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyB-Column1-Body1">
+                        <p class="TableTextSmall">Create a new schedule to be <span class="bold">Trip ID - similar</span> to the supplied schedule.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyA-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Schedule4" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Schedule Similarity - by trip id</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h5 class="Preferences"><a name="Schedule"></a>Schedule Similarity - by route group &amp; trip id</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Create a new schedule to be <span class="bold">Trip ID - similar</span> to the supplied schedule but restricted to a nominated route group. </p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span> <MadCap:snippetText src="../../99_Technical_Snippets/Prereq_Route_Groups.flsnp" /></p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_01930_01.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Route Group:</span> The <span class="bold">Route Group</span> field is mandatory</li>
+            <li class="Bullet_Level_1"><span class="bold">Penalty</span>: A high similarity carries a high penalty</li>
+            <li class="Bullet_Level_1">Load this template again to for additional route groups</li>
+        </ul>
+        <p class="BodyTextBold">&#160;</p>
+        <p class="BodyTextBold">&#160;</p>
+        <p class="BodyTextBold">&#160;</p>
+        <h5 class="Preferences"><a name="Schedule2"></a>Schedule Similarity - by route group &amp; time</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Create a new schedule to be <span class="bold">Trip Start Time - similar</span> to the supplied schedule for the nominated route group. It attempts prevent trip start time deviations of more than the specified time.</p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span> <MadCap:snippetText src="../../99_Technical_Snippets/Prereq_Route_Groups.flsnp" /></p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_01930_02.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Max time difference</span>: This is the maximum time deviation between the start time of a trip on a specific route as between the original schedule and the optimized schedule - that can be considered <span class="oblique">Start Time Similar</span></li>
+            <li class="Bullet_Level_1"><span class="bold">Penalty</span>: The penalty is imposed when the<span class="bold"> Max time difference</span> is exceeded. A high similarity carries a high penalty</li>
+            <li class="Bullet_Level_1"><span class="bold">Route Group</span>: The <span class="bold">Route Group</span> field is mandatory</li>
+            <li class="Bullet_Level_1">Load this template again to for additional route groups</li>
+        </ul>
+        <p class="BodyTextBold">&#160;</p>
+        <p class="BodyTextBold">&#160;</p>
+        <h5 class="Preferences"><a name="Schedule3"></a>Schedule Similarity - by route &amp; time</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Create a new schedule to be <span class="oblique">Trip Start Time - similar</span> to the supplied schedule for the nominated route. It attempts prevent trip start time deviations of more than the specified time.</p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_01930_03.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-1: "><a name="Schedule5"></a>Schedule Similarity by route and time</p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Max time difference:</span> This is the maximum time deviation between the start time of a trip on a specific route as between the original schedule and the optimized schedule - that can be considered <span class="oblique">Start Time - similar</span>.
+            </li>
+            <li class="Bullet_Level_1"><span class="bold">Penalty</span>: The penalty is imposed when the<span class="bold"> Max time difference</span> is exceeded. A high similarity carries a high penalty</li>
+            <li class="Bullet_Level_1">You can create additional instances of this template using <span class="bold">Edit Filters</span> to differentiate between them.</li>
+        </ul>
+        <h5 class="Preferences"><a name="Schedule4"></a>Schedule Similarity - by trip id</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Create a new schedule to be <span class="bold">Trip ID - similar</span> to the supplied schedule.</p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_01930_04.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Penalty</span>: A high similarity carries a high penalty
+        </li>
+            <li class="Bullet_Level_1">You can create additonal instances of this template using Edit Filters to differentiate between them.</li>
+        </ul>
+        <p class="BodyTextBold">Example:</p>
+        <p class="BodyText">See <MadCap:xref href="#Preferen" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Preference Overview</span></b></MadCap:xref> above.</p>
+    </body>
+</html>

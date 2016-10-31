@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="520" MadCap:lastWidth="622">
+    <head>
+        <link href="../../../Resources/TableStyles/Tedmplate_List.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h3>Allow Existing Schedule Assignment</h3>
+        <h4>Preference Overview</h4>
+        <p class="BodyText">In the original schedule, there may be cases where two consecutive trips are assigned to a specific vehicle with overlap between them. It may be that the duration of the first trip is over estimated or if the second trip is expected to be delayed.</p>
+        <p class="BodyText">This preference allows you to maintain existing overlaps between consecutive trips. </p>
+        <div class="note">
+            <p class="textInDiv">There are two preference templates available only one of which may be used and then only as a single instance.</p>
+        </div>
+        <h4>Templates Available from <MadCap:variable name="Optibus_General.CompanyName"></MadCap:variable></h4>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;caption-side: top;mc-table-style: url('../../../Resources/TableStyles/Tedmplate_List.css');" class="TableStyle-Template_List" cellspacing="0">
+            <caption class="TableCaption" MadCap:autonum="Table 1-1: ">Templates Summary</caption>
+            <col style="width: 3.25cm;" class="TableStyle-Template_List-Column-Column1" />
+            <col style="width: 338px;" class="TableStyle-Template_List-Column-Column1" />
+            <col style="width: 143px;" class="TableStyle-Template_List-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Template_List-Head-Header1">
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableTextSmall">Template Name</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableTextSmall">Purpose</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadD-Column1-Header1">
+                        <p class="TableTextSmall">Reference</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Allow Existing Schedule Assignment by Route Group</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Maintain  existing overlaps for consecutive trips for a nominated Route Group.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Allow" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Allow Existing Schedule Assignment by Route Group</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyB-Column1-Body1">
+                        <p class="TableTextSmall">Allow Existing Schedule Assignment</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyB-Column1-Body1">
+                        <p class="TableTextSmall">Maintain    existing overlaps for consecutive trips.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyA-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Allow2" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Allow Existing Schedule Assignment</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h5 class="Preferences"><a name="Allow"></a>Allow Existing Schedule Assignment by Route Group</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Maintain  existing overlaps for consecutive trips for a nominated Route Group.</p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span> You should have already defined your route groups. See Miscellaneous Assignments, <MadCap:xref href="../04_Miscellaneous/PO_04_Msc_Route_Groups.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Route Groups</span></b></MadCap:xref>.</p>
+        <div class="tip">
+            <p class="textInDiv">This template can only be used once, so you might need to set up a special Route Group containing all of the routes needed for this purpose.</p>
+        </div>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10020_01.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Penalty</span>: The zero default penalty reflects allowing existing overlaps. You can use a non zero penalty to deter retention of existing overlaps.</li>
+            <li class="Bullet_Level_1"><span class="bold">Route Group</span>: The <span class="bold">Route Group</span> field is mandatory</li>
+        </ul>
+        <h5 class="Preferences"><a name="Allow2"></a>Allow Existing Schedule Assignment</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Maintain    existing overlaps for consecutive trips.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10020_02.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Penalty</span>: The zero default penalty reflects allowing existing overlaps. You can use a non zero penalty to deter retention of existing overlaps</li>
+            <li class="Bullet_Level_1"> <span class="bold">Override Homogeneity</span>: If this is set to Yes, then the new schedule will maintain consecutive trips overriding any homogeneity conditions (see <MadCap:xref href="PO_01_Veh_Homog_Veh_Sched.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Homogenic Vehicle Schedule</span></b></MadCap:xref>). This applies to any homogeity conditions already in force for the schedule or any that may be implemented after using this preference.</li>
+        </ul>
+    </body>
+</html>

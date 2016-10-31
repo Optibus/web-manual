@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="User Guide A4"
+  Type="MsWord"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[General.PDF or General.Word] exclude[General.Online] "
+  SyncLingoProject="false"
+  MasterToc="/Project/TOCs/TOC PDF_A4.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/Optibus_Web_Home.css"
+  OutputFile="UM_[%=Optibus_General.CompanyName%]"
+  OutputFolder="C:\Users\Flare Optibus\Desktop\UM_OnSchedule"
+  PatchHeadingLevels="true"
+  EmbedImages="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+</CatapultTarget>

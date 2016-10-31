@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="569" MadCap:lastWidth="622">
+    <head>
+        <link href="../../../Resources/TableStyles/Tedmplate_list.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h3><a name="top"></a>Homogenic Vehicle Schedule</h3>
+        <h4>Work-flow to Use Homogenic Vehicle Schedule</h4>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">Use <span class="bold">Add Preference</span> to obtain a baseline dialog that sets a Homogenic Vehicle Schedule for a single criterion only</li>
+            <li class="Bullet_Level_1">Repeat <span class="bold">Add Preference</span>  for additional instances of the baseline dialog</li>
+            <li class="Bullet_Level_1">Use <span class="bold">Load Template</span> to modify the preference for a wide variety of conditions </li>
+            <li class="Bullet_Level_1">Repeat <span class="bold">Load Template</span> for additional instances of any template</li>
+        </ul>
+        <h4>Preference Overview</h4>
+        <p class="BodyText">There may be economic advantages in keeping each vehicle on one route, or geographically close routes. The Homogenic baseline preference provides these basic criteria. The Homogenic templates add advanced additional filtering to the basic criteria.</p>
+        <h4><a name="Add"></a>Add Preference Dialog</h4>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">The baseline dialog provides the simplest form of homogeneity by any one of the criteria, Sign, Route, Region and Route Group.</p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span>
+        </p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">To apply Regions, they must be defined as user data in your initial Schedule.</li>
+            <li class="Bullet_Level_1">
+                <MadCap:snippetText src="../../99_Technical_Snippets/Prereq_Route_Groups.flsnp" />
+            </li>
+        </ul>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890.png" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-1: ">Homogenic Vehicle Schedule - Basic dialog</p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">The <span class="bold">Criterion </span>field opens a pick list:</li>
+            <li class="Continue_Level_1">
+                <img src="../../../Resources/Images/Screenshots/sc_01890_01.png" />
+            </li>
+            <p class="FigureCaption" MadCap:autonum="Figure 1-2: ">Criterion selection</p>
+            <li class="Bullet_Level_1">This preference may be strict or flexible by assigning a penalty</li>
+            <li class="Bullet_Level_1">Using <span class="bold">Edit Filters</span> you can restrict the Homogenic Vehicle Schedule to a time interval</li>
+            <li class="Bullet_Level_1">Using <span class="bold">Edit Filters</span> you can restrict it to one or more vehicle types</li>
+            <li class="Bullet_Level_1">Use <span class="bold">Add Preference</span> to create additional instances with different Homogenic Vehicle Schedules</li>
+            <li class="Bullet_Level_1"><span class="bold">Criterion</span>: The <span class="bold">Custom </span>item is similar to Expert Mode, primarily intended for use by <MadCap:variable name="Optibus_General.CompanyName" /> Professional Services to create customized criteria</li>
+        </ul>
+        <p class="BodyTextBold">Example 1.</p>
+        <p class="BodyTextBoldItalic">Scenario:</p>
+        <p class="BodyText">We will create homogeneous routes by Sign for Urban vehicles. Here is a segment of the Vehicles Gantt filtered for Urban vehicles. (The schedule used here has undergone first optimization for Vehicles and Drivers.)</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890_02.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">In the preference, choose Sign and then choose Urban vehicles in Edit Filter. Save and optimize. </p>
+        <p class="BodyTextBoldItalic">Outcome:</p>
+        <p class="BodyText">First, here is the corresponding segment of the Vehicles Gantt:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890_03.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">The effect on the Gantt is very noticeable: All of the Urban trips are Signs  homogeneous.</p>
+        <p class="BodyText">In the KPIs,  the number of vehicles has risen significantly, by 4 also reflected in the increased Total Cost.</p>
+        <p class="BodyTextBold">Example 2.</p>
+        <p class="BodyTextBoldItalic">Scenario:</p>
+        <p class="BodyText">Same as Example 1 but set a penalty of 20.</p>
+        <p class="BodyTextBoldItalic">Outcome:</p>
+        <p class="BodyText">First, here is the corresponding segment of the Vehicles Gantt:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890_04.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">The effect on the Gantt is still very noticeable, but not all of the Urban trips are Signs  homogeneous.</p>
+        <p class="BodyText">In the KPIs,  the number of vehicles has not changed. The Total Cost has increased by a small amount.</p>
+        <p class="BodyText">This suggests that there is no real loss in making the schedule sign homogeneous. It also suggests that our penalty may be too low to make a difference. If we set the penalty to 50, there is some further relaxation of sign homogeneity. There is a very small increase in Total Cost.</p>
+        <h4>Templates Available from <MadCap:variable name="Optibus_General.CompanyName" /></h4>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;caption-side: top;mc-table-style: url('../../../Resources/TableStyles/Tedmplate_List.css');" class="TableStyle-Template_List" cellspacing="0">
+            <caption class="TableCaption" MadCap:autonum="Table 1-1: ">Templates Summary</caption>
+            <col style="width: 3.25cm;" class="TableStyle-Template_List-Column-Column1" />
+            <col style="width: 338px;" class="TableStyle-Template_List-Column-Column1" />
+            <col style="width: 143px;" class="TableStyle-Template_List-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Template_List-Head-Header1">
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableTextSmall">Template Name</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableTextSmall">Purpose</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadD-Column1-Header1">
+                        <p class="TableTextSmall">Reference</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Override minimum trip duration</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">This preference extends the minimum trip duration to the time specified for a single route or the whole schedule. It does not change the trip duration as shown in the vehicle information boxes. It simply adds time to the end of trips delaying the trip following.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Override" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Override minimum trip duration</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Duration dependent recovery</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">This preference extends the minimum trip duration by a fixed "layover" percentage for a single route or the whole schedule. It does not change the trip duration as shown in the vehicle information boxes. It simply adds time to the end of trips delaying the trip following.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Duration" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Duration dependent recovery</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Duration dependent recovery - By route group</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">This preference extends the minimum trip duration by a fixed percentage for a route group. It does not change the trip duration as shown in the vehicle information boxes. It simply adds time to the end of trips delaying the trip following.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Duration2" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Duration dependent recovery - By route group</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Prefer inbound\outbound scheduling - By route sign</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">This provides for homogeneity where trips are followed by reverse trips.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Prefer" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Prefer inbound\outbound scheduling - By route sign</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyE-Column1-Body1">
+                        <p class="TableTextSmall">Route group scheduling</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyE-Column1-Body1">
+                        <p class="TableTextSmall">Apply homogeneity to a specific route group.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyD-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Route" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Route group scheduling</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Prefer interline between routes</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">This preference is the opposite of homogeneity by any one of the criteria, Sign, Route, Region and Route Group.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Prefer2" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Prefer interline between routes</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Single route scheduling</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">This preference applies homogeneity for a single sign or a comma separated list of signs.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Single" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Single route scheduling</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Prefer geographic round trip</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">This preference sets outbound and inbound trips together with the following relaxation: A trip will still be considered to be "inbound" for this purpose if its destination is within a given distance of the actual start location. A simple example of this is a vehicle leaving from Platform 1 of a large shopping center, but returning to Platform 20, 500 meters from its start location.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Prefer3" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Prefer geographic round trip</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Adjust deadheads to regulation</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Create vehicles schedule so that deadheads conform with driver work regulations (see the <MadCap:xref href="../02_Drivers/PO_02_Drv_Work_Limitations.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Work Limitation</span></b></MadCap:xref> preference).  </p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Adjust" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Adjust deadheads to regulation</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyE-Column1-Body1">
+                        <p class="TableTextSmall">Keep vehicle in area</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyE-Column1-Body1">
+                        <p class="TableTextSmall">This preference is similar to <MadCap:xref href="PO_01_Veh_Deadheads_Limitation.htm#Minimize" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Minimize Vehicle Cruise Preference</span></b></MadCap:xref>. Here deadhead distance is minimized to prevent vehicles from doing trips that would take them too far from their "home" depot. Maximum deadhead distance from a depot is used as the homogeneity criterion.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyD-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Keep" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Keep vehicle in area</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyB-Column1-Body1">
+                        <p class="TableTextSmall">Adjust depot pull in/out to regulation</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyB-Column1-Body1">
+                        <p class="TableTextSmall">This preference is similar to Adjust deadheads to regulation. Recall that Pull in and
+Pull out are special deadheads.
+</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyA-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Adjust2" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Adjust depot pull in/out to regulation</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h5>A General Note About Homogenic Templates</h5>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">The templates share a common "heading" section that looks like this:</li>
+            <li class="Continue_Level_1">
+                <img src="../../../Resources/Images/Screenshots/sc_01890_06.png" class="PageMaxWidth" />
+            </li>
+            <li class="Bullet_Level_1">You should ignore the <span class="bold">Custom </span>and the <span class="bold">Apply on depots</span> fields.</li>
+            <li class="Bullet_Level_1">The <span class="bold">Penalty </span>field will sometimes be set with a default value. Consider leaving it as is.</li>
+            <li class="Bullet_Level_1">The baseline dialog and templates are cumulative conditions</li>
+        </ul>
+        <h5 class="Preferences"><a name="Override"></a>Override minimum trip duration</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">This preference extends the minimum trip duration to the time specified for a single route or the whole schedule. It does not change the trip duration as shown in the vehicle information boxes. It simply adds time to the end of trips delaying the trip following.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890_05.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">&#160;</p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Minimum trip duration</span>: This field is mandatory, in minutes.</li>
+            <li class="Bullet_Level_1">This preference defaults to all routes. You may select several routes by using additional instances of this template</li>
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty</li>
+            <li class="Bullet_Level_1">You may create multiple instances of this template for additional routes</li>
+        </ul>
+        <h5 class="Preferences"><a name="Duration"></a>Duration dependent recovery</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">This preference extends the minimum trip duration by a fixed "layover" percentage for a single route or the whole schedule. It does not change the trip duration as shown in the vehicle information boxes. It simply adds time to the end of trips delaying the trip following.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890_07.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Layover percentage</span>: Note the default value.</li>
+            <li class="Bullet_Level_1">This preference defaults to all routes. You may select several routes by using additional instances of this template</li>
+        </ul>
+        <div class="tip">
+            <p class="textInDiv">To use several routes, place them in a Route Group (see <MadCap:xref href="../04_Miscellaneous/PO_04_Msc_Route_Groups.htm" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Route Groups</span></b></MadCap:xref>) and then use <MadCap:xref href="#Duration2" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Duration dependent recovery - By route group</span></b></MadCap:xref>.</p>
+        </div>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty</li>
+        </ul>
+        <h5 class="Preferences"><a name="Duration2"></a>Duration dependent recovery - By route group</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">This preference extends the minimum trip duration by a fixed percentage for a route group. It does not change the trip duration as shown in the vehicle information boxes. It simply adds time to the end of trips delaying the trip following.</p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span>
+        </p>
+        <MadCap:snippetBlock src="../../99_Technical_Snippets/Prereq_Route_Groups.flsnp" />
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890_08.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Route Group</span>: This field is mandatory</li>
+            <li class="Bullet_Level_1"><span class="bold">Layover percentage</span>: Note the default value.</li>
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty</li>
+        </ul>
+        <h5 class="Preferences"><a name="Prefer"></a>Prefer inbound\outbound scheduling - By route sign</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">This provides for homogeneity where trips are followed by reverse trips.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890_09.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">This preference sets a default penalty</li>
+            <li class="Bullet_Level_1"> The only variations possible are through <span class="bold">Edit Filters</span></li>
+        </ul>
+        <h5 class="Preferences"><a name="Route"></a>Route group scheduling</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Apply homogeneity to a specific route group.</p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span>
+        </p>
+        <MadCap:snippetBlock src="../../99_Technical_Snippets/Prereq_Route_Groups.flsnp" />
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890_10.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Route Group</span>: This is a mandatory field</li>
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty</li>
+        </ul>
+        <h5 class="Preferences"><a name="Prefer2"></a>Prefer interline between routes</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">This preference is the opposite of homogeneity by any one of the criteria, Sign, Route, Region and Route Group.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890_11.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Criterion</span>: The <span class="bold">Criterion </span>field opens a pick list:</li>
+            <li class="Continue_Level_1">
+                <img src="../../../Resources/Images/Screenshots/sc_01890_01.png" />
+            </li>
+            <li class="Bullet_Level_1">This preference sets a default penalty</li>
+        </ul>
+        <h5 class="Preferences"><a name="Single"></a>Single route scheduling</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">This preference applies homogeneity for a single sign or a comma separated list of signs.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890_12.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold"> Route Sign</span>: This filed is mandatory. It may bee a single sign or a comma separated list of signs</li>
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty</li>
+        </ul>
+        <h5 class="Preferences"><a name="Prefer3"></a>Prefer geographic round trip</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">This preference sets outbound and inbound trips together with the following relaxation: A trip will still be considered to be "inbound" for this purpose if its destination is within a given distance of the actual start location. A simple example of this is a vehicle leaving from Platform 1 of a large shopping center, but returning to Platform 20, 500 meters from its start location.</p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span> Geographic data (GPS coordinates) for start-trip and end-trip locations must be stored in the schedule Dataset.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890_13.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"> <span class="bold">Penalty</span>: The Penalty field is set to a default value.</li>
+            <li class="Bullet_Level_1"><span class="bold">Distance radius</span>: This is the maximum distance within which we consider the trip start location and trip end locations to be "the same". In our example above, the actual distance was 0.5 km, considerably less than the 2km default shown.</li>
+            <li class="Continue_Level_1">This field is in Km (or miles, depending on your location) and is set to a default value.</li>
+        </ul>
+        <h5 class="Preferences"><a name="Adjust"></a>Adjust deadheads to regulation</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Create vehicles schedule so that deadheads conform with driver work regulations (see the <MadCap:xref href="../02_Drivers/PO_02_Drv_Work_Limitations.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Work Limitation</span></b></MadCap:xref> preference).</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890_14.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-3: "><a name="Adjustin"></a>Adjusting deadheads to regulation</p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Max distance from depot</span>: This is the maximum distance allowed for a deadhead back to the depot</li>
+            <li class="Bullet_Level_1">The last two items relate to Drivers: <MadCap:xref href="../02_Drivers/PO_02_Drv_Work_Limitations.htm" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Work Limitations</span></b></MadCap:xref> as follows:</li>
+            <li class="Continue_Level_1">Recall the <span class="bold">BREAKS </span>section, which opens the following dialog:</li>
+            <li class="Continue_Level_1">
+                <img src="../../../Resources/Images/Screenshots/sc_10000_02.png" />
+            </li>
+            <li class="Continue_Level_1">
+                <p class="FigureCaption" MadCap:autonum="Figure 1-4: ">Extract from Work limitations</p>
+            </li>
+            <li class="Continue_Level_1">From <MadCap:xref href="#Adjustin" class="figure_caption">Figure 1-3</MadCap:xref>:</li>
+            <li class="Bullet_Level_1"><span class="bold">Required break</span> defaults to the <span class="bold">Break length</span> in the Extract. You may make it longer.</li>
+            <li class="Bullet_Level_1"><span class="bold">Window length</span> defaults to <span class="bold">Required Every</span> in the Extract. Leave it at default.</li>
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty. It is best left as flexible with a high penalty as shown.</li>
+        </ul>
+        <h5 class="Preferences"><a name="Keep"></a>Keep vehicle in area</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">This preference is similar to <MadCap:xref href="PO_01_Veh_Deadheads_Limitation.htm#Minimize" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Minimize Vehicle Cruise Preference</span></b></MadCap:xref>. Here deadhead distance is minimized to prevent vehicles from doing trips that would take them too far from their "home" depot. Maximum deadhead distance from a depot is used as the homogeneity criterion.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890_15.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold"> Distance factor</span>: The distance from the vehicle's "home" depot should be realistically large enough, but the penalty for violation should also be realistically large.</li>
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty as shown</li>
+        </ul>
+        <h5 class="Preferences"><a name="Adjust2"></a>Adjust depot pull in/out to regulation</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">This preference is similar to <MadCap:xref href="#Adjust" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Adjust deadheads to regulation</span></b></MadCap:xref>. Recall that Pull in and Pull out are special deadheads.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01890_16.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-5: "><a name="Adjustin2"></a>Adjusting pull in/pull out</p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Required break</span> and <span class="bold">Windows length</span> relate to Drivers: <MadCap:xref href="../02_Drivers/PO_02_Drv_Work_Limitations.htm" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Work Limitations</span></b></MadCap:xref> as follows:</li>
+            <li class="Continue_Level_1">Recall the <span class="bold">BREAKS </span>section, which opens the following dialog:</li>
+            <li class="Continue_Level_1">
+                <img src="../../../Resources/Images/Screenshots/sc_10000_02.png" />
+            </li>
+            <li class="Continue_Level_1">
+                <p class="FigureCaption" MadCap:autonum="Figure 1-6: ">Extract from Work limitations</p>
+            </li>
+            <li class="Continue_Level_1">From <MadCap:xref href="#Adjustin2" class="figure_caption">Figure 1-5</MadCap:xref>:</li>
+            <li class="Bullet_Level_1"><span class="bold">Required break</span> defaults to the <span class="bold">Break length</span> in the Extract. You may make it longer.</li>
+            <li class="Bullet_Level_1"><span class="bold">Window length</span> defaults to <span class="bold">Required Every</span> in the Extract. Leave it at default.</li>
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty</li>
+        </ul>
+    </body>
+</html>

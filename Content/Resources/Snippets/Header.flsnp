@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="47" MadCap:lastWidth="623">
+    <head>
+    </head>
+    <body>
+        <div class="FloatLeft"><p class="HeaderText"><MadCap:variable name="Heading.AnyLevel" /></p></div>
+		<div class="FloatRight"><p class="HeaderText">Chapter <MadCap:variable name="System.ChapterNumber" /></p></div>
+    </body>
+</html>

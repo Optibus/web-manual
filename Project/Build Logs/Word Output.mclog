@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapLog Protocol="2" Description="MadBuild V12 Generated Word Output.fltar" Date="2016-09-26T15:23:51.3093638+03:00">
+    <Messages>Compiling target Word Output...
+Checking Word version...
+Removing previously generated content...
+Gathering Glossary information...
+Gathering Auto-index information...
+Loading Master TOC...
+Processing Master TOC...
+Generating Glossary...
+Processing Page Layouts...
+Page layout frame: Rotated frames are not supported in this output
+Page layout frame: Rotated frames are not supported in this output
+Page layout frame: Rotated frames are not supported in this output
+Page layout frame: Rotated frames are not supported in this output
+Page layout frame: Rotated frames are not supported in this output
+Page layout frame: Rotated frames are not supported in this output
+Collecting source files...
+Processing source files...
+Processing topic: Title.htm
+Processing topic: Copyright.htm
+Processing topic: TOC.htm
+Processing topic: Divider_GS.htm
+Processing topic: GS_About_this_UM.htm
+Processing topic: GS_Manual_Structure.htm
+Processing topic: GS_Typographical_Conventions.htm
+Processing topic: GS_Viewing_Printing.htm
+Processing topic: GS_Notifications.htm
+Processing topic: GS_Terminology.htm
+Processing topic: GS_Introduction.htm
+Processing topic: GS_Welcome.htm
+Processing topic: GS_Key_Features.htm
+Processing topic: GS_Major_Benefits.htm
+Processing topic: GS_Prerequisites.htm
+Processing topic: QT_Quick_Tour.htm
+Processing topic: QT_Tour_Objectives.htm
+Processing topic: QT_Login.htm
+Processing topic: QT_Choosing_Dataset.htm
+Processing topic: QT_Vehicle_Gantt.htm
+Processing topic: QT_Driver_Gantt.htm
+Processing topic: QT_Filter_Gantt_View.htm
+Processing topic: QT_Key_Performance_Indicators.htm
+Processing topic: QT_Using_Preferences.htm
+Processing topic: QT_Manual_Editing.htm
+Processing topic: QT_Generating_Weekly_Schedule.htm
+Processing topic: Divider_TR.htm
+Processing topic: TR_Workflow.htm
+Processing topic: TR_Preparing_Source_Files.htm
+Processing topic: TR_Choosing_Schedule.htm
+Processing topic: TR_Main_Window.htm
+Processing topic: TR_Tool_bar.htm
+Processing topic: TR_TB_Context_Menu.htm
+Processing topic: TR_TB_Schedule_Updates.htm
+Processing topic: TR_TB_Export_Schedules.htm
+Processing topic: TR_TB_Import_Schedules.htm
+Processing topic: TR_TB_Interactive_Scheduling.htm
+Processing topic: TR_TB_Choose_Day.htm
+Processing topic: TR_Optimization_Tool_Bar.htm
+Cross-referenced file not included in TOC: Content\00-UM_Main\03_Technical_Reference\TR_First_Optimization.htm
+Processing topic: TR_KPI_Window.htm
+Processing topic: TR_Vehicle_Gannt.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: TR_Driver_Gannt.htm
+Processing topic: PO_Setting_Prefs.htm
+Processing topic: PO_00_Scope.htm
+Processing topic: PO_00_Optimization_Options.htm
+Processing topic: PO_00_Org.htm
+Processing topic: PO_00_Org_Overview.htm
+Processing topic: PO_00_Org_Topic Groups.htm
+Processing topic: PO_00_Org_Prefs_Toolbar.htm
+Processing topic: PO_00_Org_Constraints_Flexibility_Penalties.htm
+Processing topic: PO_00_Org_Topic_Dialogs.htm
+Processing topic: PO_00_Org_Topic_Dialogs_Open_Used.htm
+Processing topic: PO_00_Org_Topic_Dialogs_UI_Fields.htm
+Processing topic: PO_00_Org_Topic_Dialogs_Add_New_Pref.htm
+Processing topic: PO_00_Org_Topic_Dialogs_Add_From_Template.htm
+Processing topic: PO_00_Org_Topic_Pref_Tools.htm
+Processing topic: PO_00_Org_Other_Toolbar_Choices.htm
+Processing topic: PO_00_UM_Prefs_Org.htm
+Processing topic: PO_01_Veh.htm
+Processing topic: PO_01_Veh_Homog_Veh_Sched.htm
+Processing topic: PO_01_Veh_Widespread.htm
+Processing topic: PO_01_Veh_Vehicle_Types.htm
+Processing topic: PO_01_Veh_Boarding_Time_Relaxation.htm
+Processing topic: PO_01_Veh_Absolute_Trip_Delays.htm
+Processing topic: PO_01_Veh_Pre_Post_Trip.htm
+Processing topic: PO_01_Veh_Schedule_Similarity.htm
+Processing topic: PO_01_Veh_Weekly_Vehicle_Similarity.htm
+Processing topic: PO_01_Veh_Allow_Existing_Sched_Assgt.htm
+Processing topic: PO_01_Veh_Fleet_Size.htm
+Processing topic: PO_01_Veh_Vehicle_Standby_Limitation.htm
+Processing topic: PO_01_Veh_Vehicle_Start_End_Time_Limitation.htm
+Processing topic: PO_01_Veh_Deadheads_Limitation.htm
+Processing topic: PO_01_Veh_Continuous_Attendance.htm
+Processing topic: PO_01_Veh_Mid_ Day_Park.htm
+Processing topic: PO_01_Veh_Deadheads_Filter.htm
+Processing topic: PO_01_Veh_Deadheads_Generator.htm
+Processing topic: PO_01_Veh_Vehicle_Distance_Limitation.htm
+Processing topic: PO_02_Drv.htm
+Processing topic: PO_02_Drv_Work_Limitations.htm
+Processing topic: PO_02_Drv_Duty_Types.htm
+Processing topic: PO_02_Drv_Driver_ Duty_Work_Time.htm
+Processing topic: PO_02_Drv_Driver_Changeover_Vehicle.htm
+Processing topic: PO_02_Drv_Driver_Split_Duty.htm
+Processing topic: PO_02_Drv_Duty_Terminal_Stops.htm
+Processing topic: PO_02_Drv_Duty_Taxi.htm
+Processing topic: PO_02_Drv_Driver_Signing.htm
+Processing topic: PO_02_Drv_Driver_Vehicle_Preparation.htm
+Processing topic: PO_02_Drv_Crew_Schedule_Similarity.htm
+Processing topic: PO_02_Drv_Relief_Point.htm
+Processing topic: PO_02_Drv_Duty_Relief.htm
+Processing topic: PO_02_Drv_Weekly_Crew_Similarity.htm
+Processing topic: PO_02_Drv_Duty_Homogeneity.htm
+Processing topic: PO_02_Drv_Driver_Walk.htm
+Processing topic: PO_02_Drv_Driver_Standby.htm
+Processing topic: PO_02_Drv_Driver_Break.htm
+Processing topic: PO_02_Drv_Reposition_Duty_Start_End.htm
+Processing topic: PO_02_Drv_Duty_Breaks.htm
+Processing topic: PO_02_Drv_Taxi_To_Breaks.htm
+Processing topic: PO_02_Drv_Custom_Duty.htm
+Processing topic: PO_02_Drv_Duty_ID_Generator.htm
+Processing topic: PO_03_Dep.htm
+Processing topic: PO_03_Dep_Depot_Capacity.htm
+Processing topic: PO_03_Dep_Depot_Vehicle_Allocation.htm
+Processing topic: PO_03_Dep_Depot_Access.htm
+Processing topic: PO_04_Msc.htm
+Processing topic: PO_04_Msc_Route_Groups.htm
+Processing topic: PO_04_Msc_Stop_Groups.htm
+Processing topic: PO_04_Msc_Deadhead_Catalog.htm
+Processing topic: PO_04_Msc_Taxi_Catalog.htm
+Processing topic: PO_04_Msc_Taxi_Schedule.htm
+Processing topic: PO_04_Msc_Costs.htm
+Processing topic: PO_04_Msc_Places_Grouping.htm
+Processing topic: PO_04_Msc_Export_Formats.htm
+Processing topic: IS_Interactive_Scheduling.htm
+Processing topic: IS_Purpose_Scope.htm
+Processing topic: IS_Preparing_for_IS.htm
+Processing topic: IS_Drivers_Gantt_IS.htm
+Processing topic: IS_DG_Move_Trip.htm
+Processing topic: IS_DG_MT_Move_Single_Trip.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: IS_DG_MT_Editing_Stack.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: IS_DG_MT_Move_Multiple_Trips.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: IS_DG_MT_Moving_to_New Duty.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: IS_DG_Change_Trip_Times.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: IS_DG_Delete_Trip.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: IS_DG_Change_Depot_PO_PI.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: IS_DG_Add_Remove_Taxi.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: IS_DG_Replace_Taxi_with_Deadhead.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: IS_DG_Custom_Elements.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: IS_DG_Block_Editing.htm
+Processing topic: IS_Vehicles_Gantt_IS.htm
+Processing topic: IS_Vehicles_Only_IS.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: IS_Add_Trip.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: IS_Complete_Session.htm
+Processing topic: TR_Roster_Schedules.htm
+Processing topic: TR_Input_Data_Formats.htm
+Processing topic: TR_Creating_Dataset_and_Schedule.htm
+Processing topic: TR_Importing_Dataset.htm
+Processing topic: TR_Importing_Schedule.htm
+Processing topic: TR_Creating_Schedule_Optimizer.htm
+Processing topic: TR_Using_Expert_Mode.htm
+Processing topic: Glossary.htm
+Processing topic: Index.htm
+Processing topic: Customer_Response.htm
+Processing topic: End_Page.htm
+Generating Index...
+Generating final output...
+Generating Final Glossary...
+Patching links and page references...
+Resolving cross-references for Title.xml
+Saving word output...
+Embedding images into document. This may take several minutes.
+Generated ../../../Word Output/UM_Optibus.doc
+Saving result set...
+Output generated in 6 minute(s) and 17 second(s).
+
+Done
+Saving log to "E:\Optibus\UM_OnSchedule\Project\Build Logs\Word Output.mclog"
+</Messages>
+    <Warnings>
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/Resources/PageLayouts/A4/ChaptersLandscape_A4.flpgl" Message="Page layout frame: Rotated frames are not supported in this output" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="Word Output" ErrorID="40041" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/Resources/PageLayouts/Letter/Chapters8_5X11.flpgl" Message="Page layout frame: Rotated frames are not supported in this output" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="Word Output" ErrorID="40041" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/Resources/PageLayouts/Letter/ChaptersLandscape8_5X11.flpgl" Message="Page layout frame: Rotated frames are not supported in this output" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="Word Output" ErrorID="40041" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/Resources/PageLayouts/Letter/Glossary8_5X11.flpgl" Message="Page layout frame: Rotated frames are not supported in this output" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="Word Output" ErrorID="40041" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/Resources/PageLayouts/Letter/Index8_5X11.flpgl" Message="Page layout frame: Rotated frames are not supported in this output" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="Word Output" ErrorID="40041" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/Resources/PageLayouts/Letter/TOC8_5X11.flpgl" Message="Page layout frame: Rotated frames are not supported in this output" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="Word Output" ErrorID="40041" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Optimization_Tool_Bar.htm" Message="Cross-referenced file not included in TOC: Content\00-UM_Main\03_Technical_Reference\TR_First_Optimization.htm" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="Word Output" ErrorID="40030" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Vehicle_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_MT_Move_Single_Trip.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_MT_Move_Single_Trip.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_MT_Editing_Stack.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_MT_Editing_Stack.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_MT_Editing_Stack.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_MT_Move_Multiple_Trips.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_MT_Moving_to_New Duty.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_Change_Trip_Times.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_Delete_Trip.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_Change_Depot_PO_PI.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_Add_Remove_Taxi.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_Add_Remove_Taxi.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_Replace_Taxi_with_Deadhead.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_Replace_Taxi_with_Deadhead.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_DG_Custom_Elements.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_Vehicles_Only_IS.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_Vehicles_Only_IS.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_Add_Trip.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word Output" ErrorID="110003" />
+    </Warnings>
+    <Errors />
+</MadCapLog>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="Title_Page" Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BackgroundRepeat="no-repeat" BackgroundImage="../../Images/Layout Art/Title Page/Title_Art_Top.png" BackgroundPositionY="0">
+        <Frame Flow="decoration1" Height="3.545417cm" Right="-97px" Bottom="-101px" X="-95px" Y="9.354167in" Width="21.00792cm" Anchors="Left,Right,Top,Bottom" BackgroundType="Solid" BackgroundColor="#f7f7f9" BackgroundColorAlt="#f7f7f9">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="TitleImageBottom">
+                            <xhtml:img xhtml:src="../../Images/Layout Art/Title Page/Title_Art_Logo_Transparent.png" xhtml:style="width: 255px;height: 104px;" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="8.25in" Height="2.958333in" X="-94px" Y="613px" Right="-96px" Bottom="34px" Anchors="Left,Right,Top,Bottom" Flow="decoration0" BackgroundType="Solid" BackgroundColor="#ffffff" BackgroundColorAlt="#ffffff">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:div xhtml:class="TitlePageMid">
+                            <xhtml:p xhtml:class="TitleImageMid1"><xhtml:span xhtml:style="font-family: Carnas; font-size: 40pt;">USER MANUAL</xhtml:span>
+                            </xhtml:p>
+                            <xhtml:p xhtml:style="text-align: center;">
+                                <xhtml:img xhtml:src="../../Images/Layout Art/Title Page/Title_Art_Mid_Transparent.png" xhtml:style="width: 432px;height: 48px;" />
+                            </xhtml:p>
+                        </xhtml:div>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

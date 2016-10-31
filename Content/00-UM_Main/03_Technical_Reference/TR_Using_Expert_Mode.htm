@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="803" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <h1 class="Appendix" MadCap:autonum="Appendix 1: ">Using Expert Mode</h1>
+        <h2>Purpose of Expert Mode</h2>
+        <p class="BodyText">Expert Mode is available for Preferences and Filters. It is primarily intended for the use of <MadCap:variable name="Optibus_General.CompanyName"></MadCap:variable> Professional Services and Integrators to - </p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">Add urgent custom features with a turn around of hours instead of days or weeks.
+            </li>
+            <li class="Bullet_Level_1">Provide rapid fixes to problems in the field
+            </li>
+        </ul>
+        <p class="BodyText">It can also be used by customers having the necessary programming expertise. </p>
+        <h2>Expert Mode for General Preferences</h2>
+        <p class="BodyText">There is an additional way to export or import a set of preferences: Click the <img src="../../Resources/Images/Layout Art/expert.png"></img> expert mode button. Your preferences are presented in source (JSON) format.</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01490.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-1: "><a name="Expert"></a>Expert preferences display</p>
+        <p class="BodyText">You can make changes in place. If you have not saved them, the top right hand <img src="../../Resources/Images/Layout Art/expert_save.png" /> icon will refresh the code to its previous state. </p>
+        <p class="BodyText">You can also use the system copy/ paste to the clipboard. You may then open an ordinary text editor (such as Notepad), to paste the text and save it.</p>
+        <h2>Expert Mode for <span class="oblique">Add Preference</span></h2>
+        <p class="BodyText">In the Pre\post Trip example, click <span class="bold">Add Preference</span>. The right part of the display shows this:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01580.png" class="PageMaxWidth">
+            </img>
+        </p>
+        <p class="BodyText"> The top left hand corner labeled <img src="../../Resources/Images/Screenshots/sc_01620.png"></img> is a default name for this preference.You can rename it to something of your own choice. Mouse-over it and the pencil icon for editing <img src="../../Resources/Images/Screenshots/sc_01590.png"></img> appears. Just click open the field for editing: <img src="../../Resources/Images/Screenshots/sc_01600.png"></img> Add your own name <img src="../../Resources/Images/Screenshots/sc_01610.png"></img> and move-click the mouse elsewhere. </p>
+        <p class="BodyText">To use Expert mode see <MadCap:xref href="TR_Using_Expert_Mode.htm#BM_00090" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Using Expert Mode</span></b></MadCap:xref>.</p>
+        <p class="BodyText">The <span class="bold">Expert </span>toggles open an input area to enter JSON code:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01630.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">Enter your code. To make room on the screen use the <span class="bold">Expert </span>toggle again to hide the code window.</p>
+        <h2><a name="Expert2"></a>Expert Mode for Edit Filters in <span class="oblique">Add Preference</span></h2>
+        <p>This expands on the description in <MadCap:xref href="../02_Preferences/PO_00_Org.htm#Edit" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Edit Filters</span></b></MadCap:xref>.</p>
+        <p class="BodyText">The <span class="bold">Expert </span>filter is different from the previous Expert cases. It provides three data entry fields:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01670.png" class="PageMaxWidth">
+            </img>
+        </p>
+        <p class="BodyText">(You may need to scroll down to see them). </p>
+        <h2><a name="Expert3"></a>Expert Mode for the User Interface for a Topic Preference</h2>
+        <p class="BodyText">This expands the description in <MadCap:xref href="../02_Preferences/PO_00_Org.htm#The" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">The User Interface for a Topic Preference</span></b></MadCap:xref>.</p>
+        <p class="BodyText">We will edit the <MadCap:variable name="Optibus_General.CompanyName" /> supplied <span class="bold">Pre\Post trip - General</span> template, and save it in our local domain.</p>
+        <p class="BodyText">First, we will use <span class="bold">Expert</span> mode to make a few small changes to the user interface. Open Expert mode:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01700.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-2: "><a name="Expert2"></a>Expert editing window</p>
+        <p>Scroll down to the bottom of the text:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01710.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">The window is a simple text editor. The "name" item is a place-holder for the preference name. Change it to "Pre and Post trip - General". The change is immediate, as you type:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01720.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">Go back to the top of the editing window (<MadCap:xref href="#Expert2" class="figure_caption">Figure 1-4</MadCap:xref>). The text defines the user interface window below it. The structure is very simple:</p>
+        <p class="BodyText">"String_with_some_description": "$value_name", (repeated as often as necessary)</p>
+        <p class="BodyText">The "String_with_some_description" is defined in the "parameters" section further down. The "$value_name" comes from a catalog of variable names available for this purpose.</p>
+        <p class="BodyText">In the "parameters" section, scroll down to the "can_pre_trip_during_idle_trip" item, and look at "display_name". Change the formulation of the question to: "Include Pre trip in deadhed time?"</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01730.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">You could also change the mouse-over tool-tip in the "description" field.</p>
+        <p class="BodyText">Unlike the preference name change, this one is not concurrent with your typing.</p>
+        <p class="BodyText">To complete the example, go to "can_post_trip_during_idle_trip" and change the "display_name" to "Include Post trip in deadhead time?"</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01740.png" />
+        </p>
+        <p class="BodyText">We will commit our changes in two steps:</p>
+        <p class="BodyText">First, we save this preference as a template so that we can use it again in another schedule. Open <span class="bold">Save as template</span>: </p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01750.png" class="SimpleEntryDialogs" />
+        </p>
+        <p class="BodyText">Close the Expert area and observe that the user interface has been updated with our changes:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_01760.png" />
+        </p>
+        <p class="BodyText">Remember that at this point you have created and saved a template. The preference does not become part of your schedule until you enter the required parameters, save and optimize.</p>
+        <p class="BodyText">&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="797" MadCap:lastWidth="622">
+    <body>
+        <h2>Optimization Options</h2>
+        <h3>The Optibize Options List</h3>
+        <p class="BodyText">The <span class="bold">Optibize</span> button is used to initiate an optimization run for the schedule.  The processing time for an optimization depends among other things, on the size of the schedule but is generally of the order of seconds to minutes. 
+</p>
+        <p class="BodyText">You can choose  to optimize the Vehicles, the Drivers (Duties) or both  using the optimization settings buttons before clicking <span class="bold">Optibize</span>.
+</p>
+        <p class="BodyText">The <img src="../../Resources/Images/Layout Art/optibize_what_00.png" /> button opens a drop-down choice list of optimization settings:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_00900_01.png">
+            </img>
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-1: ">
+            <a name="Default">
+            </a>Default options for optimization</p>
+        <p class="BodyText">By default, the optimization will use the two checked items.</p>
+        <h3>Using the Optibize and Associated Preferences buttons</h3>
+        <h4>Create vehicles</h4>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_00900_02.png" />
+        </p>
+        <p class="BodyText">
+            <span class="bold">Create vehicles</span> creates a vehicles-only schedule without a duties assignment. You can use this option for checking the minimum number of vehicles required for the schedule or for separately planning first the vehicles and then the duties.</p>
+        <h4>Create Duties without the Allow vehicles modification option</h4>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_00900_04.png" />
+        </p>
+        <p class="BodyText">This option creates a Duties schedule based on a given Vehicle schedule. The Duties will be changed whereas the Vehicles will remain the same as in the schedule displayed currently on the Vehicles Gantt. </p>
+        <div class="note">
+            <p class="textInDiv">A Vehicles schedule must always be created prior to creating a Duties schedule.</p>
+        </div>
+        <h4>
+            <a name="Create">
+            </a>Create duties with the Allow vehicles modification option</h4>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_00900_03.png" />
+        </p>
+        <p class="BodyText">In this case, <MadCap:variable name="Optibus_General.CompanyName" /> <MadCap:variable name="Optibus_General.ProductName" /> performs iterative procedure  follows:</p>
+        <ul class="FirstLevelLessIndentation">
+            <li class="Bullet_Level_1">Starting from the  current Vehicles schedule (displayed on the Gantt), the system creates a Duties schedule. It may change the Vehicles schedule to improve the Duties schedule.</li>
+            <li class="Bullet_Level_1">Using the adjusted Vehicles schedule, the system rebuilds the Duties schedule as in the previous step.</li>
+        </ul>
+        <p class="BodyText">The foregoing process of</p>
+        <p class="ProcessText">Use current Vehicles schedule</p>
+        <p class="ProcessText">
+            <span style="font-family: 'Wingdings'">ð</span> Create Duties schedule</p>
+        <p class="ProcessText">
+            <span style="font-family: 'Wingdings'">ð</span> Modify Vehicles schedule</p>
+        <p class="ProcessText">
+            <span style="font-family: 'Wingdings'">ð</span> Make modified Vehicles schedule the current Vehicles schedule</p>
+        <p class="BodyText">is repeated until  best possible results have been achieved. The complete iterative process takes place in a matter of seconds.</p>
+        <h4>Create vehicles and Create duties together</h4>
+        <p class="BodyText">This is the default case shown in <MadCap:xref href="#Default" class="figure_caption">Figure 1-1</MadCap:xref> above.</p>
+        <p class="BodyText">Both the Vehicles and Duties schedules are created in the iterative process described in the previous section, <MadCap:xref href="#Create" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Create duties with the Allow vehicles modification option</span></b></MadCap:xref>.</p>
+        <h4>Multi day</h4>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_00900_05.png" />
+        </p>
+        <p class="BodyText">Turning the <span class="bold">Multi day</span> option on together with any of the other options described above makes the optimization run for each day of the week in the current Dataset.</p>
+    </body>
+</html>

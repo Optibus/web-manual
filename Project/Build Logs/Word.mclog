@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapLog Protocol="2" Description="MadBuild V12 Generated Word.fltar" Date="2016-07-06T18:35:53.3814615+03:00">
+    <Messages>Compiling target Word...
+Checking Word version...
+Removing previously generated content...
+Gathering Glossary information...
+Gathering Auto-index information...
+Loading Master TOC...
+Processing Master TOC...
+Generating Glossary...
+Processing Page Layouts...
+Page layout frame: Rotated frames are not supported in this output
+Page layout frame: Rotated frames are not supported in this output
+Page layout frame: Rotated frames are not supported in this output
+Page layout frame: Rotated frames are not supported in this output
+Page layout frame: Rotated frames are not supported in this output
+Page layout frame: Rotated frames are not supported in this output
+Collecting source files...
+Processing source files...
+Processing topic: Title.htm
+Processing topic: Copyright.htm
+Processing topic: TOC_Brief.htm
+Processing topic: TOC.htm
+Processing topic: Getting_Started.htm
+Processing topic: About_this_UM.htm
+Processing topic: Manual_Structure.htm
+Processing topic: Typographical_Conventions.htm
+Processing topic: Viewing_Printing.htm
+Processing topic: Notifications.htm
+Processing topic: Terminology.htm
+Processing topic: Introduction.htm
+Processing topic: Welcome.htm
+Processing topic: Key_Features.htm
+Processing topic: Major_Benefits.htm
+Processing topic: Prerequisites.htm
+Processing topic: Quick_Tour.htm
+Processing topic: Login_to_Demonstration.htm
+Processing topic: Choose_Dataset.htm
+Processing topic: Choose_Schedule.htm
+Processing topic: Explore_Vehicle_Schedule.htm
+Processing topic: Explore_Driver_Schedule.htm
+Processing topic: Preparing_Schedule.htm
+Processing topic: Preparing_Schedule_Data.htm
+Processing topic: Vehicle_Schedule.htm
+Processing topic: Driver_Schedule.htm
+Processing topic: First_Optimization.htm
+Processing topic: Fine_Tuning.htm
+Processing topic: Cfg_Preferences.htm
+Processing topic: Cfg_Prefs_Window.htm
+Processing topic: Cfg_Vehicles.htm
+Processing topic: Cfg_Drivers.htm
+Processing topic: Cfg_Depots.htm
+Processing topic: Cfg_Misc.htm
+Processing topic: Technical_Reference.htm
+Processing topic: TR_Login.htm
+Processing topic: TR_Datasets.htm
+Processing topic: TR_Main_Window.htm
+Processing topic: TR_Tool_bar.htm
+Processing topic: TR_TB_Context_Menu.htm
+Processing topic: TR_TB_Schedule_Updates.htm
+Processing topic: TR_TB_Export_Schedules.htm
+Processing topic: TR_TB_Import_Schedules.htm
+Processing topic: TR_TB_Preferences.htm
+Processing topic: TR_TB_Manual_Scheduling.htm
+Processing topic: TR_TB_Choose_Day.htm
+Processing topic: TR_TB_Switch_Display.htm
+Processing topic: TR_Optimization_Tool_Bar.htm
+Processing topic: TR_KPI_Window.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: TR_Vehicle_Gannt.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: TR_Driver_Gannt.htm
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information.
+Processing topic: TR_Input_Data_Formats.htm
+Processing topic: Glossary.htm
+Processing topic: Index.htm
+Processing topic: Customer_Response.htm
+Processing topic: End_Page.htm
+Generating Index...
+Generating final output...
+Generating Final Glossary...
+Patching links and page references...
+Resolving cross-references for Title.xml
+Saving word output...
+Embedding images into document. This may take several minutes.
+Generated ../../../Word/UM_Optibus.doc
+Saving result set...
+Output generated in 21 second(s).
+
+Done
+Saving log to "E:\Optibus\UM_OnSchedule\Project\Build Logs\Word.mclog"
+</Messages>
+    <Warnings>
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/Resources/PageLayouts/A4/ChaptersLandscape_A4.flpgl" Message="Page layout frame: Rotated frames are not supported in this output" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="Word" ErrorID="40041" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/Resources/PageLayouts/Letter/Chapters8_5X11.flpgl" Message="Page layout frame: Rotated frames are not supported in this output" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="Word" ErrorID="40041" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/Resources/PageLayouts/Letter/ChaptersLandscape8_5X11.flpgl" Message="Page layout frame: Rotated frames are not supported in this output" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="Word" ErrorID="40041" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/Resources/PageLayouts/Letter/Glossary8_5X11.flpgl" Message="Page layout frame: Rotated frames are not supported in this output" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="Word" ErrorID="40041" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/Resources/PageLayouts/Letter/Index8_5X11.flpgl" Message="Page layout frame: Rotated frames are not supported in this output" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="Word" ErrorID="40041" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/Resources/PageLayouts/Letter/TOC8_5X11.flpgl" Message="Page layout frame: Rotated frames are not supported in this output" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="Word" ErrorID="40041" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_KPI_Window.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Vehicle_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Vehicle_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Vehicle_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Vehicle_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Vehicle_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Vehicle_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Vehicle_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Vehicle_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Vehicle_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Vehicle_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Vehicle_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Driver_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Driver_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Driver_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Driver_Gannt.htm" Message="Warning: Format auto-number commands can not be converted in MS Word output. See the help for more information." LineIndex="-1" CharIndex="-1" Subsystem="MsWord Compiler" Target="Word" ErrorID="110003" />
+    </Warnings>
+    <Errors />
+</MadCapLog>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Padding="20px" PageSize="A4" PageType="first" PaddingLeft="1.5in" PaddingRight="1.5in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in" Name="First">
+        <Frame X="-58px" Y="21px" Width="622px" Height="889px" Flow="body" Right="-58px" Bottom="21px" Anchors="Width" />
+        <Frame X="-58px" Y="927px" Width="623px" Height="70px" Flow="footer" Right="-59px" Bottom="-66px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../../Snippets/Footer.flsnp" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Padding="20px" PageSize="A4" PageType="normal" PaddingLeft="1.5in" PaddingRight="1.5in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in" Name="Normal">
+        <Frame X="-59px" Y="18px" Width="623px" Height="894px" Flow="body" Right="-58px" Bottom="19px" Anchors="" />
+        <Frame X="-58px" Y="927px" Width="623px" Height="70px" Flow="footer" Right="-59px" Bottom="-66px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../../Snippets/Footer.flsnp" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-58px" Y="-69px" Width="623px" Height="69px" Flow="header" Right="-59px" Bottom="931px" Anchors="Width" />
+    </Page>
+</PageStyles>

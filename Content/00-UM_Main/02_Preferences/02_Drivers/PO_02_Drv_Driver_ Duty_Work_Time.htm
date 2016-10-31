@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="733" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <h3>Driver Duty Work Time</h3>
+        <h4>Work-flow to Use Driver Duty Work Time</h4>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">The Driver Duty Work Time preference is accessed through <span class="bold">Load Template</span></li>
+            <li class="Bullet_Level_1">There is only one template available, and only one instance of it is permitted</li>
+        </ul>
+        <h4>Preference Overview</h4>
+        <p class="BodyText">This preference guides the choice of driver work time by ranking work times with penalties. It does this by  setting a sliding penalty for driver duty work time by time interval. See for example, <MadCap:xref href="#Duty" class="figure_caption">Figure 1-1</MadCap:xref> below. </p>
+        <div class="note">
+            <p class="textInDiv">The table in <MadCap:xref href="#Duty" class="figure_caption">Figure 1-1</MadCap:xref> is customer specific.</p>
+        </div>
+        <p class="BodyText">The penalties as shown work like this: The base penalty is 50. Between 00:00 and 04:00, the penalty is 50 * 1.0 = 50.</p>
+        <p class="BodyText">From 04:00 to 07:00, the penalty starts at 50 * 1.0 and drops proportionally to 50 * 0.5 = 25.</p>
+        <p class="BodyText">From 07:00 to 08:00, the penalty starts at 50 * 0.5 and drops proportionally to 50 * 0.2 = 10.</p>
+        <p class="BodyText">From 08:00 to 09:00, the penalty starts at 50 * 0.2 and drops proportionally to 50 * 0.0 = 0.</p>
+        <p class="BodyText">From 09:00 to 10:00, the penalty remains at 0.</p>
+        <p class="BodyText">From 10:00 to 12:00, the penalty starts at 50 * 0.0 and rises proportionally to 50 * 0.3 = 15.</p>
+        <p class="BodyText">From 12:00 onwards, he penalty is fixed at 50 * 0.3 </p>
+        <p class="BodyText">For this example, the preferred duty times would be 9 to 10 hours followed by 8 to 9 hours.</p>
+        <p class="BodyText">The decimal numbers that you enter for each time range are multipliers for the base penalty per hour within the range.</p>
+        <h4>Templates Available from <MadCap:variable name="Optibus_General.CompanyName"></MadCap:variable></h4>
+        <h5>Driver Duty Work Time Preference</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">As stated in the Overview</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_10090.png" class="PageMaxWidth" style="width: 488px;height: 295px;" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-1: "><a name="Duty"></a>Duty work time penalties</p>
+        <p class="BodyText">&#160;</p>
+    </body>
+</html>

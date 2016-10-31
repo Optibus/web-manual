@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="0" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <h1 class="Chapter" MadCap:autonum="Chapter 1 &#160;&#160;">Source Files: Preparation</h1>
+        <h2>Files Required to Prepare a Schedule</h2>
+        <p class="BodyText">When a completely new schedule is to be created, <MadCap:variable name="Optibus_General.CompanyName" /> <MadCap:variable name="Optibus_General.ProductName" /> must import four data files to create a Dataset:</p>
+        <ul>
+            <li class="Bullet_Level_1">Trips - a complete specification of each trip</li>
+            <li class="Bullet_Level_1">Stops - bus stops</li>
+            <li class="Bullet_Level_1">Vehicle Types catalog</li>
+            <li class="Bullet_Level_1">Idle Trips - the Deadheads catalog</li>
+        </ul>
+        <p>In addition, a schedule may also be available for import.</p>
+        <p class="BodyText">The Operator in conjunction with <MadCap:variable name="Optibus_General.CompanyName" /> supplies these files  in the formats shown in <MadCap:xref href="#Source" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Source File Layouts</span></b></MadCap:xref>.</p>
+        <h2>Source File Formats</h2>
+        <h3>General</h3>
+        <p class="BodyText"><MadCap:variable name="Optibus_General.CompanyName" /> <MadCap:variable name="Optibus_General.ProductName" /> supports a variety of import formats including Excel, CSV and JSON. It also supports several proprietary integration formats. In what follows below, we will use Excel formatted examples.</p>
+        <h3>Importing Excel Files</h3>
+        <p class="BodyText">When importing Excel files, the four items above appear in one file with four labeled sheets. It is the basis for the imported Dataset and is frequently referred to as a Dataset in its own right. The Deadheads may be in a separate Excel file. The schedule, if available, is also in a separate spreadsheet. The precise structure of these files is set out in <MadCap:xref href="#Source" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Source File Layouts</span></b></MadCap:xref> below.</p>
+        <div class="note">
+            <p class="textInDiv">The Dataset, Deadheads and Schedule source files may be supplied in different formats.
+            </p>
+        </div>
+        <h2>Locating the Source Files</h2>
+        <p class="BodyText">We continue with Excel files. Ensure that you know the names  of the source files and their locations. We will use the files shown here:</p>
+        <p class="BodyText">
+            <img src="../../Resources/Images/Screenshots/sc_00920.png" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-1: "><a name="BM_00040"></a>Locating the Dataset Excel file</p>
+        <div class="note">
+            <p class="textInDiv">In practice, you may not always have a schedule. <MadCap:variable name="Optibus_General.CompanyName" class="textInDiv" /> <MadCap:variable name="Optibus_General.ProductName" /> can generate a schedule for you during the first optimization based on default preferences or preferences of your choice. </p>
+        </div>
+        <h2><a name="Source"></a>Source File Layouts</h2>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Under_Construction.flsnp" />
+    </body>
+</html>

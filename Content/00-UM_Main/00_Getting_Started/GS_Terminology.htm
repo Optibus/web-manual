@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="825" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <h2>Concepts and Terminology</h2>
+        <p class="BodyText">Most of the terminology in this manual is industry standard, however  <MadCap:variable name="Optibus_General.CompanyName" /> <MadCap:variable name="Optibus_General.ProductName" /> introduces some application specific concepts. This section provides a description of these concepts and how they tie into standard terminology.</p>
+        <p class="BodyText">For our purposes, an <span class="bold">Operator</span> operates a fleet of road vehicles to provide public transportation services. The Operator carries out scheduling based on the following standard data sources:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Trips list</span>
+            </li>
+            <li class="Bullet_Level_1"><span class="bold">Stops list</span>
+            </li>
+            <li class="Bullet_Level_1"><span class="bold">Vehicle types list</span>
+            </li>
+            <li class="Bullet_Level_1"><span class="bold">Deadheads catalog</span>
+            </li>
+        </ul>
+        <p class="BodyText">We introduce here, the notion of a <span class="bold">Dataset</span>. A Dataset is a database that takes in these four standard data files. An Operator may this way, have several Datasets for different purposes. <MadCap:variable name="Optibus_General.CompanyName" /> <MadCap:variable name="Optibus_General.ProductName" /> creates the Datasets from the four files, which the Operator supplies in conjunction with <MadCap:variable name="Optibus_General.CompanyName" />. They may be supplied in a variety of formats including Excel spreadsheet, CSV and JSON.</p>
+        <p class="BodyText">Basic terms such as <span class="bold">Deadhead<span>, </span>Depot</span>, <span class="bold">Pull in</span>, <span class="bold">Pull out</span>, <span class="bold">Split</span>, <span class="bold">Changeover</span> are standard. </p>
+        <p class="BodyText">A <b>Route</b> is a very specific: It is specified by a <span class="bold">Sign</span>, an <span class="bold">Alternative</span> (often abbreviated to <span class="bold">Alt</span>) and a <span class="bold">Direction</span>.</p>
+        <p class="BodyText">Similarly, a <span class="bold">Service trip</span> is also defined in a very specific way: It includes  route information, eligible vehicle types and start-end times. After scheduling, it will be assigned a driver duty and a vehicle.</p>
+        <p class="BodyText">You can open a schedule from a Dataset in one of three ways:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">You may choose one of list of existing schedules</li>
+            <li class="Bullet_Level_1">Import a schedule from a source spreadsheet</li>
+            <li class="Bullet_Level_1">Create a new schedule Using the Preferences and Optimization </li>
+        </ul>
+        <p class="BodyText">The way in which the <MadCap:variable name="Optibus_General.CompanyName" /> <MadCap:variable name="Optibus_General.ProductName" /> vehicle and driver  displays are produced is largely dependent upon  on the way in which the schedule was opened. </p>
+        <p class="BodyText">The vehicles are displayed in a <span class="bold">Vehicles Gantt</span> in which each <span class="bold">row </span>or <span class="bold">block </span> shows the trips allocated to a  vehicle for a day's work.</p>
+        <p class="BodyText">A <span class="bold">vehicle block</span> does not relate to a specific physical vehicle. It shows the trips allocated for example, to vehicle 35 for the day. In that sense,  vehicle ID 35 is an abstraction: It is a set of vehicle attributes that may be matched by one or more physical vehicles.  Although <MadCap:variable name="Optibus_General.CompanyName" /> <MadCap:variable name="Optibus_General.ProductName" /> takes into account fleet size, vehicle types and their attributes, the allocation of a specific physical vehicle to the a vehicle ID is outside the scope of the system.</p>
+        <p class="BodyText">The drivers are shown in a <span class="bold">Drivers Gantt</span> in which each row shows the  trips allocated to a specific driver for the day.</p>
+        <p class="BodyText"><span class="bold">Drivers and Duties:</span> In reality, <MadCap:variable name="Optibus_General.CompanyName" /><MadCap:variable name="Optibus_General.ProductName" /> deals with duties rather than with real drivers - personnel. The assignment of drivers to duties (dispatching) is outside the scope of <MadCap:variable name="Optibus_General.CompanyName" /><MadCap:variable name="Optibus_General.ProductName" />. Popular usage requires us to refer for example, to Vehicles Gantts and Drivers Gantts rather than Duty Gantts.</p>
+        <p class="BodyText">First <span class="bold">optimization </span>is carried out by simply pressing the <img src="../../Resources/Images/Layout Art/Optibize.png" style="width: 104px;height: 20px;" /> button. The processing time depends on the size of the schedule but is generally of the order of minutes. </p>
+        <p class="BodyText"><span class="bold">Preferences for optimization</span>: <MadCap:variable name="Optibus_General.CompanyName" /> <MadCap:variable name="Optibus_General.ProductName" /> provides an extensive array of user preferences split into vehicle related, driver (duty) related, depot related and a miscellaneous section for everything else. The preferences reflect the diverse requirements of the industry, worldwide. New preferences are added from time to time in the wake of new customer requirements. These preferences affect the optimization outcome in a direct and visible way. Changing a preference generally requires re-optimizing</p>
+        <p class="BodyText"><span class="bold">Strict and Flexible Preferences</span>: A preference parameter can be entered as a <span class="bold">constraint</span>,  being a fixed value or a fixed range of values. <MadCap:variable name="Optibus_General.CompanyName" /> <MadCap:variable name="Optibus_General.ProductName" /> introduces something new: <span class="bold">Flexible preferences</span>. A value or range of values is still chosen but they are   "elastic". However, there is a financial <span class="bold">penalty</span> for violating them.This  leads to a more realistic optimization. Flexible preferences may be available for items not governed by legislation or regulation. </p>
+    </body>
+</html>

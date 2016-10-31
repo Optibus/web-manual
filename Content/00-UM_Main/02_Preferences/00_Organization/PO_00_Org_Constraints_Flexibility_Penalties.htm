@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="763" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <h3>Constraints, Flexibility and Penalties</h3>
+        <p class="BodyText">Constraints, Flexibility and Penalties are cardinal concepts to <MadCap:variable name="Optibus_General.CompanyName" /> <MadCap:variable name="Optibus_General.ProductName" /> Preferences. </p>
+        <p class="BodyText">To explain these concepts, we start with an example. </p>
+        <p class="BodyText">In the <MadCap:xref href="../02_Drivers/PO_02_Drv_Work_Limitations.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Work Limitation</span></b></MadCap:xref> preference, you are required to set the maximum work time for a duty. Here is part of the relevant dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10000_08.png" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-1: "><a name="Setting"></a>Setting maximum working time</p>
+        <p class="BodyText">If we enter 12 hours as shown, is becomes a rigid <span class="bold">constraint</span>. The optimizer will never allow a duty longer than 12 hours.</p>
+        <p class="BodyText">In practice, a constraint of this kind is not realistic. We would prefer a <span class="bold">flexibility </span>limit that allows a duty to run between 12 and 15 hours with a <span class="bold">penalty</span> for exceeding 12 hours. Here is how we do it:</p>
+        <p class="BodyText">In the dialog from which we extracted <MadCap:xref href="#Setting" class="figure_caption">Figure 1-1</MadCap:xref>, we check the box to the left of <span class="bold">Flexibility</span>. Two additional fields are opened:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10000_09.png" />
+        </p>
+        <p>In the <span class="bold">Flexibility </span>field, enter 3 hours. In the <span class="bold">Penalty </span>field, enter 30, like this:</p>
+        <p>
+            <img src="../../../Resources/Images/Screenshots/sc_10000_10.png" />
+        </p>
+        <p class="BodyText">This tells the optimizer that w can accept a maximum working time from 2 to no more than 12+3=15 hours with a sliding penalty of 10 per hour increasing from 0 at 12 hours to 30 at 15 hours.</p>
+        <p class="BodyText">The <span class="bold">penalty </span>in this context, expresses what we are prepared to pay to exceed a certain minimum bound. </p>
+        <div class="note">
+            <p class="textInDiv">The penalty unit of currency is neutral. You need to ensure that relative penalty rates reflect conditions in your locale.</p>
+        </div>
+        <p class="BodyText">Sliding penalties can operate in both directions in a single preference. Continuing from the Work Limitation example, we see this:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10000_07.png">
+            </img>
+        </p>
+        <p class="BodyText"><span class="bold">Required Every</span> has a penalty for<span class="bold"> exceeding</span> the required value: Typically, breaks are required after a maximum actual driving time. For example, a break of 30 min. might be required after 4 hours of continuous driving. It may not be realistic to set these two values as constraints. It may be more practical to allow an overrun of 2 hours by setting a <span class="bold">Flexibility</span> level of 2 hours with a penalty of say 20. The penalty is proportional, starting at zero for no overrun to 20 for 2 hours.</p>
+        <p class="BodyText"><span class="bold">Break Length</span> flexibility works in the <span class="bold">opposite direction</span>. For a break of 30 min. we might set the Flexibility value to 15 min. and the penalty will increase as we decrease the break time. The penalty here is based on an <span class="bold">hourly </span>violation, not per minute.</p>
+        <div class="note">
+            <p class="textInDiv">Sliding penalties are not necessarily pro-rata (linear).</p>
+        </div>
+        <p class="BodyText">A penalty can be a <span class="bold">fixed </span>amount depending on something happening or not. Here is an example from the <MadCap:xref href="../02_Drivers/PO_02_Drv_Driver_Changeover_Vehicle.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Driver Changeover Vehicle</span></b></MadCap:xref> preference:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10100.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">Both of the penalties shown here are fixed amounts. The <span class="bold">Changeover time</span> penalty is incurred every time a driver switches vehicles. The <span class="bold">Split penalty</span> is incurred when a changeover takes place during a split break.</p>
+    </body>
+</html>

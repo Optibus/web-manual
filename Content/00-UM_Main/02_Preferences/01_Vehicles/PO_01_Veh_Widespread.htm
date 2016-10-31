@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="816" MadCap:lastWidth="622">
+    <head>
+        <link href="../../../Resources/TableStyles/Tedmplate_List.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h3>Widespread</h3>
+        <h4>Work-flow to Use Widespread</h4>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">Use <span class="bold">Add Preference</span> to obtain a baseline dialog that sets Widespread only</li>
+            <li class="Bullet_Level_1">Repeat <span class="bold">Add Preference</span>  for additional instances of the baseline dialog</li>
+            <li class="Bullet_Level_1">Use <span class="bold">Load Template</span> modify the preference for a wide variety of conditions </li>
+            <li class="Bullet_Level_1">Repeat <span class="bold">Load Template</span> for additional instances of any template</li>
+        </ul>
+        <h4>Preference Overview</h4>
+        <p class="BodyText">The Widespread preference places a time gap between trips of the Widespread time interval chosen. Additional conditions may be imposed using the supplied templates.</p>
+        <h4>Add Preference Dialog</h4>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Place a time gap between trips of the Widespread time interval chosen. It will tend to alter KPIs for example increasing the number of vehicles and duties.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01880.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-1: "><a name="Widespre"></a>Widespread - Basic dialog</p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty</li>
+            <li class="Bullet_Level_1">Using <span class="bold">Edit Filters</span> you can restrict the Widespread to a time interval</li>
+            <li class="Bullet_Level_1">Using <span class="bold">Edit Filters</span> you can restrict it to one or more vehicle types</li>
+        </ul>
+        <div class="tip">
+            <p class="textInDiv">You can use <span class="bold">Add Preferences</span> to create additional instances of this preference. Use <span class="bold">Edit Filters</span> as indicated, to differentiate between them.</p>
+        </div>
+        <p class="BodyTextBold">How to Assign Penalties for Widespread:</p>
+        <p class="BodyText">Consult <MadCap:variable name="Optibus_General.CompanyName" /> Proffesional Services for a proposed penalties table.</p>
+        <p class="BodyTextBold">Example 1.</p>
+        <p class="BodyTextBoldItalic">Scenario:</p>
+        <p class="BodyText">In the basic dialog (<MadCap:xref href="#Widespre" class="figure_caption">Figure 1-1</MadCap:xref>), set <span class="bold">Time </span>to 10 minutes and use <span class="bold">Edit Filters</span> to set the vehicle types to Urban (Remember to use the <span class="bold">Close </span>button on the filter.)</p>
+        <p class="BodyText">Save and optimize.</p>
+        <p class="BodyTextBoldItalic">Outcome:</p>
+        <p class="BodyText">In the KPIs, as to be expected, the number of vehicles and duties has increased. </p>
+        <p class="BodyText">The effect on the Vehicles Gantt stands out. Filter the Vehicles Gantt for Urban only:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01880_01.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-2: ">Urban vehicles sample before Widepread</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01880_02.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-3: ">Urban vehicles sample after strict 10 min Widespread</p>
+        <p class="BodyTextBold">Example 2.</p>
+        <p class="BodyTextBoldItalic">Scenario:</p>
+        <p class="BodyText">Same as Example 1 but set a penalty of 20.</p>
+        <p class="BodyTextBoldItalic">Outcome:</p>
+        <p class="BodyText">In the KPIs, as to be expected, the number of vehicles and duties has increased but less than the strict case. The resulting filtered Vehicles Gantt is also less restrictive:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01880_03.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-4: ">Urban vehicles sample after flexible 10 min Widespread</p>
+        <h4>Templates Available from <MadCap:variable name="Optibus_General.CompanyName" /></h4>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;caption-side: top;mc-table-style: url('../../../Resources/TableStyles/Tedmplate_List.css');" class="TableStyle-Template_List" cellspacing="0">
+            <caption class="TableCaption" MadCap:autonum="Table 1-1: ">Templates Summary</caption>
+            <col style="width: 3.25cm;" class="TableStyle-Template_List-Column-Column1" />
+            <col style="width: 338px;" class="TableStyle-Template_List-Column-Column1" />
+            <col style="width: 143px;" class="TableStyle-Template_List-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Template_List-Head-Header1">
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Template Name</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Purpose</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadD-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Reference</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Widespread - by route</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Place a time gap between trips of the Widespread time interval chosen only for a nominated route.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Widespre2" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Widespread - by route</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Widespread - exclude route group</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Place a time gap between trips of the Widespread time interval chosen excluding a nominated route group.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Widespre3" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Widespread - exclude route group</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Widespread - exclude route</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Place a time gap between trips of the Widespread time interval chosen excluding a nominated route.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Widespre4" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Widespread - exclude route</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Widespread - by route group and duration</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Place a time gap between trips of the Widespread time interval chosen, applying the Widsespread to trips taking more a given time for a nominated route group.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Widespre5" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Widespread - by route group and duration</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyE-Column1-Body1">
+                        <p class="TableTextSmall">Widespread - by duration and sign</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyE-Column1-Body1">
+                        <p class="TableTextSmall">Place a time gap between trips of the Widespread time interval chosen, applying the Widsespread to trips taking more than a given time for a given route based on Sign, Direction and Alternative.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyD-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Widespre6" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Widespread - by duration and sign</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Widespread - by route duration</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Place a time gap between trips of the Widespread time interval chosen, applying the Widsespread to trips taking more a given time.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Widespre7" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Widespread - by route duration</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyB-Column1-Body1">
+                        <p class="TableTextSmall">Widespread - by route group</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyB-Column1-Body1">
+                        <p class="TableTextSmall">Place a time gap between trips of the Widespread time interval chosen for a nominated route group.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyA-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Widespre8" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Widespread - by route group</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="note">
+            <p class="textInDiv">The templates below filter the basic Widespread preference in various ways. We will not offer further examples.</p>
+        </div>
+        <h5 class="Preferences"><a name="Widespre2"></a>Widespread - by route</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Place a time gap between trips of the Widespread time interval chosen only for a nominated route.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p>
+            <img src="../../../Resources/Images/Screenshots/sc_01880_04.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">This template restricts the baseline case to the Sign, Direction and Alternative chosen.</li>
+            <li class="Bullet_Level_1"> All Template Parameters are optional</li>
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty</li>
+            <li class="Bullet_Level_1">To add an additional route, use this template again to create another instance</li>
+        </ul>
+        <div class="tip">
+            <p class="textInDiv">To include several routes, place them in a Route Group (see <MadCap:xref href="../04_Miscellaneous/PO_04_Msc_Route_Groups.htm" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Route Groups</span></b></MadCap:xref>) and then use <MadCap:xref href="#Widespre8" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Widespread - by route group</span></b></MadCap:xref>.</p>
+        </div>
+        <h5 class="Preferences"><a name="Widespre3"></a>Widespread - exclude route group</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Place a time gap between trips of the Widespread time interval chosen excluding a nominated route group.</p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span> You should have already defined your route groups. See Miscellaneous Assignments, <MadCap:xref href="../04_Miscellaneous/PO_04_Msc_Route_Groups.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Route Groups</span></b></MadCap:xref>.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_01880_05.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty</li>
+            <li class="Bullet_Level_1"><span class="bold">Route group</span>: The Route Group Select field opens a pick list of your Route Groups. It is a mandatory item. Click <span class="bold">Select</span>, highlight your choice:</li>
+            <li class="Continue_Level_1">
+                <img src="../../../Resources/Images/Screenshots/sc_01880_06.png" style="width: 317px;height: 113px;" />
+            </li>
+            <li class="Continue_Level_1">Click it:</li>
+            <li class="Continue_Level_1">
+                <img src="../../../Resources/Images/Screenshots/sc_01880_07.png" style="width: 303px;height: 54px;" />
+            </li>
+            <li class="Bullet_Level_1">To exclude an additional route group , use this template again to create another instance</li>
+        </ul>
+        <h5 class="Preferences"><a name="Widespre4"></a>Widespread - exclude route</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Place a time gap between trips of the Widespread time interval chosen excluding a nominated route.</p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_01880_08.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Route sign</span>: The Route Sign field is mandatory</li>
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty</li>
+            <li class="Bullet_Level_1">To exclude more than one route, use the same template to create additional instances with the routes you wish to exclude</li>
+        </ul>
+        <div class="tip">
+            <p class="textInDiv">To exclude several routes, place them in a Route Group (see <MadCap:xref href="../04_Miscellaneous/PO_04_Msc_Route_Groups.htm" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Route Groups</span></b></MadCap:xref>) and then use <MadCap:xref href="#Widespre3" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Widespread - exclude route group</span></b></MadCap:xref>.</p>
+        </div>
+        <h5 class="Preferences"><a name="Widespre5"></a>Widespread - by route group and duration</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Place a time gap between trips of the Widespread time interval chosen, applying the Widsespread to trips taking more a given time for a nominated route group.</p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span> You should have already defined your route groups. See Miscellaneous Assignments, <MadCap:xref href="../04_Miscellaneous/PO_04_Msc_Route_Groups.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Route Groups</span></b></MadCap:xref>.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_01880_09.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to Note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Route group</span>:  The Route group field is mandatory.</li>
+            <li class="Bullet_Level_1"><span class="bold">Duration</span>: The Duration field is mandatory. It is entered in minutes.</li>
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty</li>
+            <li class="Bullet_Level_1">To add more Route Groups, use this template again to create addtional instances of the preference</li>
+        </ul>
+        <h5 class="Preferences"><a name="Widespre6"></a>Widespread - by duration and sign</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Place a time gap between trips of the Widespread time interval chosen, applying the Widsespread to trips taking more than a given time for a given route based on Sign, Direction and Alternative.</p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_01880_10.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to Note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Duration</span>: The Duration field is mandatory</li>
+            <li class="Bullet_Level_1">The remaining fields are optional</li>
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty</li>
+            <li class="Bullet_Level_1">To add more Duration and Sign conditions , use this template again to create addtional instances of the preference</li>
+        </ul>
+        <h5 class="Preferences"><a name="Widespre7"></a>Widespread - by route duration</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Place a time gap between trips of the Widespread time interval chosen, applying the Widsespread to trips taking more than a given time.</p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01880_11.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to Note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Duration</span>: The Duration  field is mandatory</li>
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty</li>
+            <li class="Bullet_Level_1">To add more Duraton conditions , use this template again to create addtional instances of the preference</li>
+        </ul>
+        <h5 class="Preferences"><a name="Widespre8"></a>Widespread - by route group</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Place a time gap between trips of the Widespread time interval chosen for one or more a nominated route groups.</p>
+        <p class="BodyText"><span class="bold">Prerequisites:</span> You should have already defined your route groups. See Miscellaneous Assignments, <MadCap:xref href="../04_Miscellaneous/PO_04_Msc_Route_Groups.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Route Groups</span></b></MadCap:xref>.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01880_12.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">This preference may be strict or may be made flexible by assigning a penalty</li>
+            <li class="Bullet_Level_1"><span class="bold">Route group</span>: The Route group Select field opens a pick list of your Route Groups. It is a mandatory item. Click <span class="bold">Select</span>, highlight your choice:</li>
+            <li class="Continue_Level_1">
+                <img src="../../../Resources/Images/Screenshots/sc_01880_06.png" style="width: 317px;height: 113px;" />
+            </li>
+            <li class="Continue_Level_1">Click it:</li>
+            <li class="Continue_Level_1">
+                <img src="../../../Resources/Images/Screenshots/sc_01880_07.png" style="width: 303px;height: 54px;" />
+            </li>
+            <li class="Bullet_Level_1">To add more Route Groups, use this template again to create addtional instances of the preference</li>
+        </ul>
+    </body>
+</html>

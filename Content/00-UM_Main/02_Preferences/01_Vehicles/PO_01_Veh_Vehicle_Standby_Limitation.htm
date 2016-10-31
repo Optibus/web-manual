@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="755" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <h3>Vehicle Standby Limitation</h3>
+        <h4>Work-flow to Use Vehicle Standby Limitation</h4>
+        <p class="BodyText">The Vehicle Standby Limitation preference is accessed through <span class="bold">Load Template</span> and only one instance of it is permitted.</p>
+        <h4>Preference Overview</h4>
+        <p class="BodyText">The Vehicle Standby Limitation preference sets a maximum continuous vehicle standby time range for which vehicles may not be in use. It  is a vehicle load balancing device.</p>
+        <h4>Templates Available from <MadCap:variable name="Optibus_General.CompanyName" /></h4>
+        <h5>Vehicle standby limitation</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Sets the maximum continuous vehicle standby time range for which vehicles may not be in use. </p>
+        <p class="BodyText">The maximum standby time is set as a range. Standby time up to the low end of the range carries no penalty. Standby time between the low end and the high end carries a sliding penalty. The high end of the range is set as a constraint by default.</p>
+        <p><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10030.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Vehicle standby time range</span>: The <span class="bold">Vehicle standby time range</span> is the time range for maximum continuous standby.</li>
+            <li class="Bullet_Level_1"><span class="bold">Constraint</span>: The upper limit of the standby time range  can be made a constraint by setting <span class="bold">Constraint </span> to Yes. This is the default setting.</li>
+            <li class="Bullet_Level_1"><span class="bold">Penalty</span>: The penalty is imposed when the standby time is between the two limits on a sliding scale from zero at the low end to the full penalty at the high end</li>
+            <li class="Bullet_Level_1">Only one instance of this template may be used</li>
+        </ul>
+    </body>
+</html>

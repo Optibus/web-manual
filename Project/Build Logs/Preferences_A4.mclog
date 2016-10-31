@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapLog Protocol="2" Description="MadBuild V12 Generated PDF Output/Preferences_A4.fltar" Date="2016-10-06T10:35:38.0592831+03:00">
+    <Messages>Compiling target Preferences_A4...
+Removing previously generated content...
+Gathering Glossary information...
+Gathering Auto-index information...
+Loading Master TOC...
+Processing Master TOC...
+Generating Glossary...
+Processing Page Layouts...
+Processing CSS: Resources\TableStyles\Simple.css...
+Collecting source files...
+Processing source files...
+Processing topic: Title.htm
+Processing CSS: Resources\Stylesheets\Optibus_Main.css...
+Link points outside project file:///E:/Optibus/UM_OnSchedule/Images/Common/NoteIconLabel.png
+Processing topic: Copyright.htm
+Processing topic: TOC.htm
+Processing topic: PO_Setting_Prefs.htm
+Processing topic: PO_00_Scope.htm
+Processing topic: PO_00_Optimization_Options.htm
+Processing topic: PO_00_Org.htm
+Processing topic: PO_00_Org_Overview.htm
+Processing CSS: Resources\TableStyles\Menu_Description.css...
+Processing topic: PO_00_Org_Topic Groups.htm
+Processing topic: PO_00_Org_Prefs_Toolbar.htm
+Processing topic: PO_00_Org_Constraints_Flexibility_Penalties.htm
+Processing topic: PO_00_Org_Topic_Dialogs.htm
+Processing topic: PO_00_Org_Topic_Dialogs_Open_Used.htm
+Processing topic: PO_00_Org_Topic_Dialogs_UI_Fields.htm
+Processing topic: PO_00_Org_Topic_Dialogs_Add_New_Pref.htm
+Processing topic: PO_00_Org_Topic_Dialogs_Add_From_Template.htm
+Processing topic: PO_00_Org_Topic_Pref_Tools.htm
+Processing topic: PO_00_Org_Other_Toolbar_Choices.htm
+Processing topic: PO_00_UM_Prefs_Org.htm
+Processing topic: PO_01_Veh.htm
+Processing topic: PO_01_Veh_Homog_Veh_Sched.htm
+Processing CSS: Resources\TableStyles\Tedmplate_list.css...
+Processing topic: PO_01_Veh_Widespread.htm
+Processing topic: PO_01_Veh_Vehicle_Types.htm
+Processing topic: PO_01_Veh_Boarding_Time_Relaxation.htm
+Processing topic: PO_01_Veh_Absolute_Trip_Delays.htm
+Processing topic: PO_01_Veh_Pre_Post_Trip.htm
+Processing topic: PO_01_Veh_Schedule_Similarity.htm
+Processing topic: PO_01_Veh_Weekly_Vehicle_Similarity.htm
+Processing topic: PO_01_Veh_Allow_Existing_Sched_Assgt.htm
+Processing topic: PO_01_Veh_Fleet_Size.htm
+Processing topic: PO_01_Veh_Vehicle_Standby_Limitation.htm
+Processing topic: PO_01_Veh_Vehicle_Start_End_Time_Limitation.htm
+Processing topic: PO_01_Veh_Deadheads_Limitation.htm
+Processing topic: PO_01_Veh_Continuous_Attendance.htm
+Processing topic: PO_01_Veh_Mid_ Day_Park.htm
+Processing topic: PO_01_Veh_Deadheads_Filter.htm
+Processing topic: PO_01_Veh_Deadheads_Generator.htm
+Processing topic: PO_01_Veh_Vehicle_Distance_Limitation.htm
+Processing topic: PO_02_Drv.htm
+Processing topic: PO_02_Drv_Work_Limitations.htm
+Processing topic: PO_02_Drv_Duty_Types.htm
+Processing topic: PO_02_Drv_Driver_ Duty_Work_Time.htm
+Processing topic: PO_02_Drv_Driver_Changeover_Vehicle.htm
+Processing topic: PO_02_Drv_Driver_Split_Duty.htm
+Processing topic: PO_02_Drv_Duty_Terminal_Stops.htm
+Processing topic: PO_02_Drv_Duty_Taxi.htm
+Processing topic: PO_02_Drv_Driver_Signing.htm
+Processing topic: PO_02_Drv_Driver_Vehicle_Preparation.htm
+Processing topic: PO_02_Drv_Crew_Schedule_Similarity.htm
+Processing topic: PO_02_Drv_Relief_Point.htm
+Processing topic: PO_02_Drv_Duty_Relief.htm
+Processing topic: PO_02_Drv_Weekly_Crew_Similarity.htm
+Processing topic: PO_02_Drv_Duty_Homogeneity.htm
+Processing topic: PO_02_Drv_Driver_Walk.htm
+Processing topic: PO_02_Drv_Driver_Standby.htm
+Processing topic: PO_02_Drv_Driver_Break.htm
+Processing topic: PO_02_Drv_Reposition_Duty_Start_End.htm
+Processing topic: PO_02_Drv_Duty_Breaks.htm
+Processing topic: PO_02_Drv_Taxi_To_Breaks.htm
+Processing topic: PO_02_Drv_Custom_Duty.htm
+Processing topic: PO_02_Drv_Duty_ID_Generator.htm
+Processing topic: PO_03_Dep.htm
+Processing topic: PO_03_Dep_Depot_Capacity.htm
+Processing topic: PO_03_Dep_Depot_Vehicle_Allocation.htm
+Processing topic: PO_03_Dep_Depot_Access.htm
+Processing topic: PO_04_Msc.htm
+Processing topic: PO_04_Msc_Route_Groups.htm
+Processing topic: PO_04_Msc_Stop_Groups.htm
+Processing topic: PO_04_Msc_Deadhead_Catalog.htm
+Processing topic: PO_04_Msc_Taxi_Catalog.htm
+Processing topic: PO_04_Msc_Taxi_Schedule.htm
+Processing topic: PO_04_Msc_Costs.htm
+Processing topic: PO_04_Msc_Places_Grouping.htm
+Processing topic: PO_04_Msc_Export_Formats.htm
+Linking cross-references...
+Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Using_Expert_Mode.htm
+Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/01_Quick_Tour/QT_Using_Preferences.htm#BM_00070
+Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/01_Quick_Tour/QT_Using_Preferences.htm#BM_00080
+Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Using_Expert_Mode.htm#Expert2
+Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Using_Expert_Mode.htm
+Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_Complete_Session.htm
+Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_KPI_Window.htm#Distribu
+Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_KPI_Window.htm#Distribu
+Creating chapters...
+Paginating...
+Collecting TOC and Index data..
+Generating TOC and Index...
+Formatting page numbers...
+Updating cross-references...
+Processing variables in Title.htm...
+Paginating Title.htm...
+     Final page count = 1.
+Processing variables in Copyright.htm...
+Paginating Copyright.htm...
+     Final page count = 1.
+Processing variables in TOC.htm...
+Paginating TOC.htm...
+     Final page count = 2.
+Processing variables in PO_Setting_Prefs.htm...
+Paginating PO_Setting_Prefs.htm...
+     25 pages completed...
+     50 pages completed...
+     75 pages completed...
+     100 pages completed...
+     125 pages completed...
+     Final page count = 133.
+Updating links...
+Adding PDF for Title.htm...
+Adding PDF for Copyright.htm...
+Adding PDF for TOC.htm...
+Adding PDF for PO_Setting_Prefs.htm...
+Saving PDF Preferences.pdf...
+Removing temporary chapter files...
+Generating Index...
+Generating final output...
+Patching links and page references...
+Generated ../../../../../PDF Output/Preferences_A4/Preferences.pdf
+Saving result set...
+Ignored Compiler Warnings: 186
+Output generated in 48 second(s).
+
+Done
+Saving log to "E:\Optibus\UM_OnSchedule\Project\Build Logs\Preferences_A4.mclog"
+</Messages>
+    <Warnings>
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/Resources/Stylesheets/Optibus_Main.css" Message="Link points outside project file:///E:/Optibus/UM_OnSchedule/Images/Common/NoteIconLabel.png" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="Preferences_A4" ErrorID="10056" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Overview.htm" Message="Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Using_Expert_Mode.htm" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="Preferences_A4" ErrorID="40035" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Topic_Dialogs.htm" Message="Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/01_Quick_Tour/QT_Using_Preferences.htm#BM_00070" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="Preferences_A4" ErrorID="40035" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Topic_Dialogs_Add_From_Template.htm" Message="Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/01_Quick_Tour/QT_Using_Preferences.htm#BM_00080" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="Preferences_A4" ErrorID="40035" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Topic_Pref_Tools.htm" Message="Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Using_Expert_Mode.htm#Expert2" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="Preferences_A4" ErrorID="40035" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Other_Toolbar_Choices.htm" Message="Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_Using_Expert_Mode.htm" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="Preferences_A4" ErrorID="40035" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Other_Toolbar_Choices.htm" Message="Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/04_Interactive_Scheduling/IS_Complete_Session.htm" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="Preferences_A4" ErrorID="40035" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Duty_Types.htm" Message="Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_KPI_Window.htm#Distribu" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="Preferences_A4" ErrorID="40035" />
+        <LogEntry File="file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Duty_Types.htm" Message="Cross-referenced topic is not part of TOC: file:///E:/Optibus/UM_OnSchedule/Content/00-UM_Main/03_Technical_Reference/TR_KPI_Window.htm#Distribu" LineIndex="-1" CharIndex="-1" Subsystem="Cross-Reference Compiler" Target="Preferences_A4" ErrorID="40035" />
+    </Warnings>
+    <Errors />
+</MadCapLog>

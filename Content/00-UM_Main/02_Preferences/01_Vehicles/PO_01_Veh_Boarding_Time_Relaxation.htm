@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="713" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <h3><a name="top"></a>Boarding Time Relaxation</h3>
+        <h4>Work-flow to Use Boarding Time Relaxation</h4>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">There is currently one <MadCap:variable name="Optibus_General.CompanyName" /> template</li>
+            <li class="Bullet_Level_1">Use <span class="bold">Load Template</span> to set up  the preference</li>
+            <li class="Bullet_Level_1">Repeat <span class="bold">Load Template</span> for additional instances of the template</li>
+        </ul>
+        <h4>Preference Overview</h4>
+        <p class="BodyText">A provision for boarding time may be made in the customer schedule data. Here we allow for the possibility of reducing it at the expense of a sliding penalty that increases with the reduction of a scheduled trip boarding time. If boarding time is defined, it will appear in the relevant vehicle information box:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01920.png" />
+        </p>
+        <p>In the example, the boarding time extends the scheduled trip time by 10 min.</p>
+        <MadCap:pageBreak />
+        <h4>Templates Available from <MadCap:variable name="Optibus_General.CompanyName" /></h4>
+        <h5><a name="Boarding"></a>Boarding Time Relaxation</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Sets the penalty for relaxing the boarding time.</p>
+        <p><span class="bold">Prerequisites:</span> The boarding time must be defined in the Dataset for the schedule.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_01900.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-1: ">Boarding Time Relaxation preference </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <p class="BodyText">The only entry field here is the opening penalty. It increases nearly linearly with boarding time violation.</p>
+    </body>
+</html>

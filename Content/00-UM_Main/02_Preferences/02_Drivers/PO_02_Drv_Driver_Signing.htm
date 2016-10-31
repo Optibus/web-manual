@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="578" MadCap:lastWidth="622">
+    <head>
+        <link href="../../../Resources/TableStyles/Tedmplate_List.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h3>
+            <a name="top">
+            </a>Driver Signing</h3>
+        <h4>Work-flow to Use Driver Signing</h4>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">Use <span class="bold">Load Template</span> to set up the preference for several conditions </li>
+            <li class="Bullet_Level_1">Repeat <span class="bold">Load Template</span> for additional instances of any template</li>
+        </ul>
+        <h4>Preference Overview</h4>
+        <p class="BodyText">This preference sets driver sign on and sign off times. If for example you set a sign on time of 7 min. then duties in the Drivers Gantt will be pre-pended with a <img src="../../../Resources/Images/Layout Art/trip_begin_pre.png" style="width: 15px;height: 27px;" /> element. Clicking it, shows the Sign on information box:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10120_05.png" style="width: 406px;height: 252px;" />
+        </p>
+        <p class="BodyText">If you also have Vehicle Pre Trip set, you will see both of them:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10120_04.png" style="width: 406px;height: 270px;" />
+        </p>
+        <p>&#160;</p>
+        <h4>Templates Available from <MadCap:variable name="Optibus_General.CompanyName"></MadCap:variable></h4>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;caption-side: top;mc-table-style: url('../../../Resources/TableStyles/Tedmplate_List.css');" class="TableStyle-Template_List" cellspacing="0">
+            <caption class="TableCaption" MadCap:autonum="Table 1-1: ">Templates Summary</caption>
+            <col style="width: 3.25cm;" class="TableStyle-Template_List-Column-Column1" />
+            <col style="width: 338px;" class="TableStyle-Template_List-Column-Column1" />
+            <col style="width: 143px;" class="TableStyle-Template_List-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Template_List-Head-Header1">
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Template Name</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Purpose</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadD-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Reference</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Driver sign off - default</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Sets the driver sign off time.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Driver" class="External_Para">
+                                <b>
+                                    <span style="color: Blue;" class="mcFormatColor">Driver sign off - default</span>
+                                </b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Driver sign on - default</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Sets the driver sigh on time.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Driver2" class="External_Para">
+                                <b>
+                                    <span style="color: Blue;" class="mcFormatColor">Driver sign on - default</span>
+                                </b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyB-Column1-Body1">
+                        <p class="TableTextSmall">Sign on - Only from depot</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyB-Column1-Body1">
+                        <p class="TableTextSmall">Sets the driver sign on time specifically at a depot.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyA-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Sign" class="External_Para">
+                                <b>
+                                    <span style="color: Blue;" class="mcFormatColor">Sign on - Only from depot</span>
+                                </b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h5 class="Preferences">
+            <a name="Driver">
+            </a>Driver sign off - default</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Sets the driver sign off time.</p>
+        <p class="BodyText">
+            <span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_10120_02.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">
+                <span class="bold">During Split</span>: Set this to determine whether sign off time is allowed during a split break or not</li>
+            <li class="Bullet_Level_1">You may create additional instances of this using Load Template</li>
+        </ul>
+        <h5 class="Preferences">
+            <a name="Driver2">
+            </a>Driver sign on - default</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Sets the driver sign on time.</p>
+        <p class="BodyText">
+            <span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_10120_01.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">
+                <span class="bold">During Split</span>: Set this to determine whether sign on time is allowed during a split break or not</li>
+            <li class="Bullet_Level_1">You may create additional instances of this using Load Template</li>
+        </ul>
+        <p class="BodyTextBold">&#160;</p>
+        <h5 class="Preferences">
+            <a name="Sign">
+            </a>Sign on - Only from depot</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Sets the driver sign on time specifically at a depot.</p>
+        <p class="BodyText">
+            <span class="bold">Prerequisites:</span> None,</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_10120_03.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">
+                <span class="bold">Sign on time</span> is a mandatory field</li>
+            <li class="Bullet_Level_1">
+                <span class="bold">During Split</span>: Set this to determine whether sign on time is allowed during a split break or not</li>
+            <li class="Bullet_Level_1">You may create additional instances of this using Load Template</li>
+        </ul>
+    </body>
+</html>

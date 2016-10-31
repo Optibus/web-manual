@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultBatchTarget
+  Version="1"
+  Comment="New Batch Target">
+  <Targets>
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF Output/IS_A4"
+      Type="PDF"
+      Build="true"
+      LastBuilt="2016-10-06T10:21:33.4568590+03:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF Output/Preferences_A4"
+      Type="PDF"
+      Build="true"
+      LastBuilt="2016-10-06T10:22:40.2437732+03:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF Output/UserGuide_A4"
+      Type="PDF"
+      Build="true"
+      LastBuilt="2016-10-06T10:13:51.6240013+03:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF Output/UserGuide_Letter"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Web Output/UserGuide_Web"
+      Type="HTML5"
+      LastBuilt="2016-10-05T13:36:29.8545058+03:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Word Output"
+      Type="Word" />
+  </Targets>
+</CatapultBatchTarget>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="770" MadCap:lastWidth="622">
+    <head>
+    </head>
+    <body>
+        <h3>Other Preference Tool-Bar Choices</h3>
+        <h4><a name="Special"></a>System Parameters</h4>
+        <p class="BodyText">The <img src="../../../Resources/Images/Layout Art/global_prefs.png" /> button opens a set of optimization system parameters that configure the optimization process at the system level.</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01500.png" style="width: 279px;height: 296px;" />
+        </p>
+        <h5>Schedule Parameters</h5>
+        <p class="BodyText">The optimizer may not be able to assign some duties due to restrictive preferences.</p>
+        <p class="BodyText">In such a situation, by setting this switch to ON, the optimizer places the problematic trips in the editing stack in the Drivers Gantt. The trips may then be investigated for cause and manually corrected. Otherwise, the optimization will halt will a diagnostic message.</p>
+        <h5>Interactive Parameters</h5>
+        <p class="BodyText">The last step of an interactive scheduling session is to Assign Vehicles (see <MadCap:xref href="../../04_Interactive_Scheduling/IS_Complete_Session.htm" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Completing the Edit Session</span></b></MadCap:xref>).</p>
+        <p class="BodyText">If this switch is set to ON, vehicle modifications will be allowed during the assign. Otherwise they will not be allowed.</p>
+        <h5>Vehicle Adaptation for Duties</h5>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01550.png" />
+        </p>
+        <p class="BodyText">This is used where a Vehicle schedule has been created and the number of assigned vehicles is acceptable. Changing preferences may assign additional vehicles but real life limitations may make the results untenable. </p>
+        <p class="BodyText">The <span class="bold">Max Vehicles Addition</span> is the maximum number of addidional vehicles that can be added after changing preferences and optimizing. </p>
+        <p class="BodyText">The <span class="bold">Max duty penalty</span> works in two directions -</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">It is maximum penalty that can be imposed on a valid duty (in relation to preferences)</li>
+            <li class="Bullet_Level_1">It is the minimum penalty that is imposed on aninvalid duty  (in relation to preferences)</li>
+        </ul>
+        <h4><a name="Simplifi"></a>Quick Preferences</h4>
+        <p class="BodyText">The <img src="../../../Resources/Images/Layout Art/simplified_prefs.png" /> button opens a set of quick preferences:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_01510.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyText">These are frequently used preferences that might be helpful in setting up "What if?" demonstrations.</p>
+        <h4><a name="Expert"></a>Expert Mode Management</h4>
+        <p class="BodyText">Clicking the <img src="../../../Resources/Images/Layout Art/expert.png"></img> expert mode button shows your preferences in source (JSON) format. </p>
+        <p class="BodyText">This <span class="bold">Expert </span>provision also appears at the topic level. It is primarily intended for the use of <MadCap:variable name="Optibus_General.CompanyName"></MadCap:variable> Professional Services to - </p>
+        <ul>
+            <li class="Bullet_Level_1"><span class="bold">Add urgent custom features with a turn around of hours instead of days or weeks.</span>
+            </li>
+            <li class="Bullet_Level_1"><span class="bold">Provide rapid fixes to problems in the field</span>
+            </li>
+        </ul>
+        <p class="BodyText">It can also be used by customers having the necessary programming expertise.</p>
+        <p class="BodyText">See <MadCap:xref href="../../03_Technical_Reference/TR_Using_Expert_Mode.htm" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Using Expert Mode</span></b></MadCap:xref> for further details.</p>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="Glossary First" Padding="20px" PageSize="A4" PageType="first" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundColor="#000000" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame Flow="body" Y="151px" Bottom="72px" X="0px" Right="0px" ColumnCount="2" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Top" Width="554px" Height="708px">
+        </Frame>
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="884px" Width="554px" TextAlign="left" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                        <xhtml:link xhtml:href="../../TableStyles/Simple.css" xhtml:rel="stylesheet" MadCap:stylesheetType="table" />
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:table xhtml:class="TableStyle-SimpleWithPadding" xhtml:style="mc-table-style: url('../../TableStyles/Simple.css');margin-left: 0;margin-right: auto;width: 100%;" xhtml:cellspacing="0">
+                            <xhtml:col xhtml:class="TableStyle-SimpleWithPadding-Column-Column1" />
+                            <xhtml:col xhtml:class="TableStyle-SimpleWithPadding-Column-Column1" />
+                            <xhtml:tbody>
+                                <xhtml:tr xhtml:class="TableStyle-SimpleWithPadding-Body-Row1">
+                                    <xhtml:td xhtml:class="TableStyle-SimpleWithPadding-BodyB-Column1-Row1">
+                                        <xhtml:p xhtml:class="FrameFooterText2">GLOSSARY │<MadCap:variable xhtml:name="Optibus_General.UserGuideTitle" /></xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:class="TableStyle-SimpleWithPadding-BodyA-Column1-Row1">
+                                        <xhtml:p xhtml:class="FrameFooterText2" xhtml:style="text-align: right;">&#160;</xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="Glossary Normal" Padding="20px" PageSize="A4" PageType="normal" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundColor="#000000" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame Flow="body" Y="48px" Bottom="72px" X="0px" Right="0px" ColumnCount="2" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="554px" Height="811px">
+        </Frame>
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="884px" Width="554px" TextAlign="right" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                        <xhtml:link xhtml:href="../../TableStyles/Simple.css" xhtml:rel="stylesheet" MadCap:stylesheetType="table" />
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:table xhtml:class="TableStyle-SimpleWithPadding" xhtml:style="mc-table-style: url('../../TableStyles/Simple.css');margin-left: 0;margin-right: auto;width: 100%;" xhtml:cellspacing="0">
+                            <xhtml:col xhtml:class="TableStyle-SimpleWithPadding-Column-Column1" />
+                            <xhtml:col xhtml:class="TableStyle-SimpleWithPadding-Column-Column1" />
+                            <xhtml:tbody>
+                                <xhtml:tr xhtml:class="TableStyle-SimpleWithPadding-Body-Row1">
+                                    <xhtml:td xhtml:class="TableStyle-SimpleWithPadding-BodyB-Column1-Row1">
+                                        <xhtml:p xhtml:class="FrameFooterText2">GLOSSARY │<MadCap:variable xhtml:name="Optibus_General.UserGuideTitle" /></xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:class="TableStyle-SimpleWithPadding-BodyA-Column1-Row1">
+                                        <xhtml:p xhtml:class="FrameFooterText2" xhtml:style="text-align: right;">&#160;</xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

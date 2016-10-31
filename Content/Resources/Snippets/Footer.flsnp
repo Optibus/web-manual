@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="32" MadCap:lastWidth="623">
+    <head>
+    </head>
+    <body>
+        <div class="FloatLeft"><p class="FooterText"><span class="bold"><MadCap:variable name="Optibus_General.CompanyName" /></span> - <MadCap:variable name="Optibus_General.ProductName" /> <MadCap:variable name="Optibus_General.UserGuideTitle" /></p></div>
+		 <div class="FloatRight"><p class="FooterText"><MadCap:variable name="System.PageNumber"></MadCap:variable></p></div>
+    </body>
+</html>

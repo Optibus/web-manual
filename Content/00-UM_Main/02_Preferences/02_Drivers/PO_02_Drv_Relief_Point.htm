@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="743" MadCap:lastWidth="622">
+    <head>
+        <link href="../../../Resources/TableStyles/Tedmplate_List.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h3>Relief Point</h3>
+        <h4>Work-flow to Use Relief Point</h4>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">Use <span class="bold">Load Template</span> to set up the preference for several conditions </li>
+            <li class="Bullet_Level_1">Repeat <span class="bold">Load Template</span> for additional instances of any template</li>
+        </ul>
+        <h4>Preference Overview</h4>
+        <p class="BodyText">This preference sets stops eligible  for use as driver changeover points. In addition, any stops within a specified radius of a relief point may also be used as a relief point.</p>
+        <h4>Templates Available from <MadCap:variable name="Optibus_General.CompanyName"></MadCap:variable></h4>
+        <p class="BodyText">Three pairs of templates are supplied. The difference between the two items in each pair is that one is a constraint and the second is preference with a penalty.</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;caption-side: top;mc-table-style: url('../../../Resources/TableStyles/Tedmplate_List.css');" class="TableStyle-Template_List" cellspacing="0">
+            <caption class="TableCaption" MadCap:autonum="Table 1-1: ">Templates Summary</caption>
+            <col style="width: 2.67cm;" class="TableStyle-Template_List-Column-Column1">
+            </col>
+            <col style="width: 76px;" class="TableStyle-Template_List-Column-Column1">
+            </col>
+            <col style="width: 286px;" class="TableStyle-Template_List-Column-Column1">
+            </col>
+            <col style="width: 142px;" class="TableStyle-Template_List-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Template_List-Head-Header1">
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Template</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Type</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadE-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Purpose</p>
+                    </th>
+                    <th class="TableStyle-Template_List-HeadD-Column1-Header1">
+                        <p class="TableHeadingLeftSmall">Reference</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1" rowspan="2">
+                        <p class="TableTextSmall">Relief Point  - by route</p>
+                        <p class="TableTextSmall">&#160;</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Preference</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1" rowspan="2">
+                        <p class="TableTextSmall">Set a relief point stop group for a specific route. A distance threshold is also defined.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Relief" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Relief Point Preference - by route</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Constraint</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Relief4" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Relief Point Constraint - by route</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1" rowspan="2">
+                        <p class="TableTextSmall">Relief Point  - by route group</p>
+                        <p class="TableTextSmall">&#160;</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Preference</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1" rowspan="2">
+                        <p class="TableTextSmall">Set a relief point stop group for a specific group of routes. A distance threshold is also defined.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Relief2" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Relief Point Preference - by route group</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyH-Column1-Body1">
+                        <p class="TableTextSmall">Constraint</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyG-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Relief5" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Relief Point Constraint - by route group</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyE-Column1-Body1" rowspan="2">
+                        <p class="TableTextSmall">Relief Point</p>
+                        <p class="TableTextSmall">&#160;</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyE-Column1-Body1">
+                        <p class="TableTextSmall">Preference</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyE-Column1-Body1" rowspan="2">
+                        <p class="TableTextSmall">Set a relief point stop group. A distance threshold is also defined.</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyD-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Relief3" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Relief Point Preference</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Template_List-Body-Body1">
+                    <td class="TableStyle-Template_List-BodyB-Column1-Body1">
+                        <p class="TableTextSmall">Constraint</p>
+                    </td>
+                    <td class="TableStyle-Template_List-BodyA-Column1-Body1">
+                        <p class="TableTextSmall">
+                            <MadCap:xref href="#Relief6" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Relief Point Constraint</span></b>
+                            </MadCap:xref>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h5><a name="Relief"></a>Relief Point Preference - by route</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Set a relief point stop group for a specific route. A distance threshold is also defined.</p>
+        <p><span class="bold">Prerequisites:</span> <![CDATA[ ]]></p>
+        <p class="BodyText">
+            <MadCap:snippetText src="../../99_Technical_Snippets/Prereq_Stop_Groups.flsnp" />
+        </p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_20050_01.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Route</span>: Route sign is a mandatory field</li>
+            <li class="Bullet_Level_1"><span class="bold">Relief point stop group</span>: This is a mandatory field. You may choose from a dropdown list of your stop groups:</li>
+            <li class="Continue_Level_1">
+                <img src="../../../Resources/Images/Screenshots/sc_20050_04.png" style="width: 322px;height: 93px;" />
+            </li>
+            <li class="Bullet_Level_1"><span class="bold">Depots are relief points</span>: Set this to Yes if you want Depots to also be relief points.</li>
+            <li class="Bullet_Level_1"><span class="bold">Distance threshold</span>: Any stops within the specified radius of a relief point may also be used as a relief point. Specify the radius here.</li>
+            <li class="Bullet_Level_1"><span class="bold">Penalty</span>: Preferring the relief stops carries a penalty</li>
+            <li class="Bullet_Level_1">Use <span class="bold">Load Template</span> to create additional instances</li>
+        </ul>
+        <h5><a name="Relief4"></a>Relief Point Constraint - by route</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">This instance is the same as <MadCap:xref href="#Relief" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Relief Point Preference - by route</span></b></MadCap:xref> but without a penalty field - it is a constraint.</p>
+        <h5 class="Preferences"><a name="Relief2"></a>Relief Point Preference - by route group</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Set a relief point stop group for a specific group of routes. A distance threshold is also defined.</p>
+        <p><span class="bold">Prerequisites:</span> <![CDATA[ ]]></p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">
+                <MadCap:snippetText src="../../99_Technical_Snippets/Prereq_Stop_Groups.flsnp" />
+            </li>
+            <li class="Bullet_Level_1">
+                <MadCap:snippetText src="../../99_Technical_Snippets/Prereq_Route_Groups.flsnp" />
+            </li>
+        </ul>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_20050_02.png" class="PageMaxWidth" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Route group</span> : Route sign is a mandatory field. You may choose from a dropdown list of your route groups:</li>
+            <li class="Continue_Level_1">
+                <img src="../../../Resources/Images/Screenshots/sc_20050_05.png" />
+            </li>
+            <li class="Bullet_Level_1"><span class="bold">Relief point stop group</span>: This is a mandatory field. You may choose from a dropdown list of your stop groups:</li>
+            <li class="Continue_Level_1">
+                <img src="../../../Resources/Images/Screenshots/sc_20050_04.png" style="width: 322px;height: 93px;" />
+            </li>
+            <li class="Bullet_Level_1"><span class="bold">Depots are relief points</span>: Set this to Yes if you want Depots to also be relief points.</li>
+            <li class="Bullet_Level_1"><span class="bold">Distance threshold</span>: Any stops within the specified radius of a relief point may also be used as a relief point. Specify the radius here.</li>
+            <li class="Bullet_Level_1"><span class="bold">Penalty</span>: Preferring the relief stops carries a penalty</li>
+            <li class="Bullet_Level_1">Use <span class="bold">Load Template</span> to create additional instances</li>
+        </ul>
+        <h5><a name="Relief5"></a>Relief Point Constraint - by route group</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">This instance is the same as <MadCap:xref href="#Relief2" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Relief Point Preference - by route group</span></b></MadCap:xref> but without a penalty field - it is a constraint.</p>
+        <h5 class="Preferences"><a name="Relief3"></a>Relief Point Preference</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">Set a relief point stop group. A distance threshold is also defined.</p>
+        <p><span class="bold">Prerequisites:</span> <![CDATA[ ]]></p>
+        <p class="BodyText">
+            <MadCap:snippetText src="../../99_Technical_Snippets/Prereq_Stop_Groups.flsnp" />
+        </p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_20050_03.png" class="PageMaxWidth" style="width: 506px;height: 226px;" />
+        </p>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1"><span class="bold">Relief point stop group</span>: This is a mandatory field. You may choose from a dropdown list of your stop groups:</li>
+            <li class="Continue_Level_1">
+                <img src="../../../Resources/Images/Screenshots/sc_20050_04.png" style="width: 322px;height: 93px;" />
+            </li>
+            <li class="Bullet_Level_1"><span class="bold">Depots are relief points</span>: Set this to Yes if you want Depots to also be relief points.</li>
+            <li class="Bullet_Level_1"><span class="bold">Distance threshold</span>: Any stops within the specified radius of a relief point may also be used as a relief point. Specify the radius here.</li>
+            <li class="Bullet_Level_1"><span class="bold">Penalty</span>: Preferring the relief stops carries a penalty</li>
+            <li class="Bullet_Level_1">Use <span class="bold">Load Template</span> to create additional instances</li>
+        </ul>
+        <h5><a name="Relief6"></a>Relief Point Constraint</h5>
+        <p class="BodyTextBold">Purpose:</p>
+        <p class="BodyText">This instance is the same as <MadCap:xref href="#Relief3" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Relief Point Preference</span></b></MadCap:xref> but without a penalty field - it is a constraint.</p>
+    </body>
+</html>

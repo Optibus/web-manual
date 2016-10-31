@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="767" MadCap:lastWidth="622">
+    <head>
+        <link href="../../../Resources/TableStyles/Simple.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h3><a name="top"></a>Work Limitation</h3>
+        <h4>Work-flow to Use Work Limitation</h4>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">Use <span class="bold">Add Preference</span> to obtain a baseline dialog that sets Work Limitations</li>
+            <li class="Bullet_Level_1">Repeat <span class="bold">Add Preference</span>  for additional instances of the baseline dialog</li>
+        </ul>
+        <h4>Preference Overview</h4>
+        <p class="BodyText">Driver work limitation are frequently governed by regulatory limits and by union agreements.</p>
+        <p class="BodyText">This preference collects together all of the main driver work limitations -   working time and breaks.</p>
+        <h4>Add Preference Dialog</h4>
+        <p class="BodyText"><span class="bold">Prerequisites:</span> None.</p>
+        <p class="BodyTextBold">Opening Dialog:</p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_10000.png" class="PageMaxWidth" />
+        </p>
+        <p class="FigureCaption" MadCap:autonum="Figure 1-1: "><a name="Work"></a>Work Limitations dialog</p>
+        <p class="BodyText">Many of the fields in this dialog open sub-dialogs. We will look at each of the four groups in <MadCap:xref href="#Work" class="figure_caption">Figure 1-1</MadCap:xref> in detail.</p>
+        <p class="BodyTextBold"><span class="oblique">WORKING TIME</span>
+        </p>
+        <p class="BodyTextBold">
+            <img src="../../../Resources/Images/Screenshots/sc_10000_01.png" />
+        </p>
+        <p class="BodyText">This group opens up as follows if we check the<span class="bold"> Max. Stretch Time</span> and <span class="bold">Flexibility </span>boxes:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10000_06.png" />
+        </p>
+        <p class="BodyText"><span class="bold">Max. Work Time</span> is the maximum duty shift time net of splits break time. For example you can set this to 12 hours as a constraint. It might be more practical to allow it to increase to 15 hours with a penalty for overrun. To do this, set the <span class="bold">Flexibility </span>time to 3 hours and the <span class="bold">Penalty</span> , say to 20. The actual penalty incurred will start at zero for no overrun to a maximum of 20 for a 3 hour overrun.</p>
+        <p class="BodyText"><span class="bold">Max. Stretch Time</span> is the maximum duty shift time including split break times. The flexibility and penalty considerations work in the same way as for <span class="bold">Max. Work Time</span>.</p>
+        <div class="caution">
+            <p class="textInDiv">It is your responsibility to ensure the consistency of the times that you enter here. For example, <span class="bold">Max. Stretch Time</span> cannot be less than <span class="bold">Max. Work Time</span>.</p>
+        </div>
+        <p class="BodyTextBold"><span class="oblique">BREAKS</span>
+        </p>
+        <p class="BodyText">Switching on <span class="bold">BREAKS</span> opens the following dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10000_02.png" />
+        </p>
+        <p class="BodyText">Checking <span class="bold">Flexibility </span>opens it further:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10000_07.png" />
+        </p>
+        <p class="BodyText"><span class="bold">Required Every</span>: Typically, breaks are required after a maximum actual driving time. For example, a break of 30 min. might be required after 4 hours of continuous driving. <span class="TBD_Request">Again it may not be realistic to set these two values as constraints. In our example, it may be more practical to allow an overrun of 2 hours by setting a Flexibility level of 2 hours with a penalty of say 20. The penalty is proportional, starting at zero for no overrun to 20 for 2 hours.</span></p>
+        <p class="BodyText"><span class="bold">Break Length</span> flexibility works in the opposite direction. For a break of 30 min. we might set the Flexibility value to 15 min. and the penalty will increase as we decrease the break time. </p>
+        <p class="BodyTextBold">BREAKS<span style="font-family: 'Wingdings'">ð</span>ACCUMULATION</p>
+        <p class="BodyText">During the course of a full shift, there may be many small breaks. Accumulation enables you to aggregate these small breaks to meet the overall breaks requirements.</p>
+        <p class="BodyText">Switching it on offers a further sub-dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10000_03.png" />
+        </p>
+        <p class="BodyText"><span class="bold">Min. Break</span> is the minimum break time to be included in an accumulation. For example, we may wish to exclude minor breaks of under say, five minutes.</p>
+        <p class="BodyText"><span class="bold">Min. Continuous Break</span>: Here we require at least one break of this much time. If we don't have at least one such break, then nothing is accumulated.</p>
+        <p>You may check any combination of the <span class="bold">Min. Break</span> and <span class="bold">Min. Continuous Break</span> fields.</p>
+        <p class="BodyTextBold">LONG BREAKS</p>
+        <p class="BodyText">Switching it on offers the next sub-dialog:</p>
+        <p class="BodyText">
+            <img src="../../../Resources/Images/Screenshots/sc_10000_04.png" />
+        </p>
+        <p class="BodyText"><span class="bold">Min. Duty Length</span>: LONG BREAKS are defined for duties over this minimum length.</p>
+        <p class="BodyText"><span class="bold">Required Break</span> is the break time.</p>
+        <p class="BodyText"><a name="Break"></a><span class="bold">Break Start Time Between</span>: This item sets a period within the duty for which a long break may apply. It prevents long breaks from being scheduled too close to the beginning of a duty or too close to the end of a duty. For example in a 15 hour duty, we might require a long break of 2 hours but only after 4 hours in to the shift and commencing no later than 9 hours ii to the shift. So these fields would be set to 4:00 and 9:00 respectively.</p>
+        <p class="BodyTextBold">OVERLOOKS</p>
+        <p class="BodyText">This is a set of six exceptions that may be switched on or off. Switching them on includes them in break time; switching them off excludes them.</p>
+        <img src="../../../Resources/Images/Screenshots/sc_10000_05.png" class="FloatLeft" />
+        <div class="FloatRight">
+            <table style="mc-table-style: url('../../../Resources/TableStyles/Simple.css');margin-left: 0;margin-right: auto;width: 339px;" class="TableStyle-Simple" cellspacing="0">
+                <col class="TableStyle-Simple-Column-Column1" style="width: 79px;" />
+                <col class="TableStyle-Simple-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-Simple-Head-Header1">
+                        <th class="TableStyle-Simple-HeadF-Column1-Header1">
+                            <p class="TableHeadingLeftSmall">Switch On</p>
+                        </th>
+                        <th class="TableStyle-Simple-HeadD-Column1-Header1">
+                            <p class="TableHeadingLeftSmall">Include this in breaks:</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-Simple-Body-Row1">
+                        <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                            <p class="TableTextSmall">Signing</p>
+                        </td>
+                        <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                            <p class="TableTextSmall">Sign-on/sign-off time - this is separate from Pre/Post trip time</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Simple-Body-Row1">
+                        <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                            <p class="TableTextSmall">Taxi</p>
+                        </td>
+                        <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                            <p class="TableTextSmall">Taxi time</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Simple-Body-Row1">
+                        <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                            <p class="TableTextSmall">Pre/Post Trips</p>
+                        </td>
+                        <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                            <p class="TableTextSmall">Pre/Post trip times. See <MadCap:xref href="../01_Vehicles/PO_01_Veh_Pre_Post_Trip.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Pre Post Trip</span></b></MadCap:xref>.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Simple-Body-Row1">
+                        <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                            <p class="TableTextSmall">Changeover</p>
+                        </td>
+                        <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                            <p class="TableTextSmall">Vehicle changeover time</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Simple-Body-Row1">
+                        <td class="TableStyle-Simple-BodyI-Column1-Row1">
+                            <p class="TableTextSmall">Boarding Time</p>
+                        </td>
+                        <td class="TableStyle-Simple-BodyG-Column1-Row1">
+                            <p class="TableTextSmall">Boarding time. See <MadCap:xref href="../01_Vehicles/PO_01_Veh_Boarding_Time_Relaxation.htm" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Boarding Time Relaxation.</span></b></MadCap:xref></p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-Simple-Body-Row1">
+                        <td class="TableStyle-Simple-BodyC-Column1-Row1">
+                            <p class="TableTextSmall">Continuous Attendance</p>
+                        </td>
+                        <td class="TableStyle-Simple-BodyA-Column1-Row1">
+                            <p class="TableTextSmall">Yes or no, not necessarily a time. See <MadCap:xref href="../01_Vehicles/PO_01_Veh_Continuous_Attendance.htm#top" class="External_Para"><b><span style="color: Blue;" class="mcFormatColor">Continuous Attendance.</span></b></MadCap:xref></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="Clear">&#160;</div>
+        <p class="BodyTextBold">Points to note:</p>
+        <ul class="Level_1">
+            <li class="Bullet_Level_1">You may create additional instances of this preference for different maximum work times. There are however, no Edit Filters.</li>
+            <li class="Bullet_Level_1">There are currently no additional <MadCap:variable name="Optibus_General.CompanyName" /> templates available. Work Limitation templates have to be tailored to local regulations and  Union agreements.</li>
+        </ul>
+    </body>
+</html>

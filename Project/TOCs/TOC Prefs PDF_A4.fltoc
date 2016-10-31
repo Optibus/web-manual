@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="General.PDF">
+  <TocEntry
+    Title="Title_Page"
+    Link="/Content/01-Print Only Topics/Title.htm"
+    StartSection="false"
+    PageNumber="1"
+    PageType="normal"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/A4/Title_A4.flpgl"
+    StartPageLayout="false"
+    BreakType="chapter"
+    ChapterNumberReset="reset"
+    SectionNumberReset="reset"
+    VolumeNumberReset="reset"
+    ChapterNumber="1"
+    VolumeNumber="1"
+    SectionNumber="1"
+    ComputeToc="false"
+    ReplaceMergeNode="false">
+    <TocEntry
+      Title="Copyright"
+      Link="/Content/01-Print Only Topics/Copyright.htm"
+      StartPageLayout="true"
+      StartSection="false"
+      BreakType="chapter"
+      PageLayout="/Content/Resources/PageLayouts/A4/Copyright_A4.flpgl"
+      ChapterNumberReset="reset"
+      SectionNumberReset="reset"
+      VolumeNumberReset="reset"
+      ChapterNumber="1"
+      VolumeNumber="1"
+      SectionNumber="1"
+      ReplaceMergeNode="false"
+      PageNumberReset="reset"
+      PageNumber="1"
+      PageNumberFormat="lower-roman"></TocEntry>
+    <TocEntry
+      Title="PrintTOC"
+      Link="/Content/01-Print Only Topics/TOC.htm"
+      StartSection="false"
+      PageNumber="1"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/A4/TOC_A4.flpgl"
+      PageNumberFormat="lower-roman"
+      StartPageLayout="false"
+      ChapterNumberReset="reset"
+      SectionNumberReset="reset"
+      VolumeNumberReset="reset"
+      BreakType="chapter"
+      ComputeToc="false"
+      ChapterNumber="1"
+      VolumeNumber="1"
+      SectionNumber="1"
+      ReplaceMergeNode="false"
+      PageType="first"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Preferences and Optimization"
+    Link="/Content/00-UM_Main/02_Preferences/PO_Setting_Prefs.htm"
+    ChapterNumberReset="reset"
+    SectionNumberReset="same"
+    VolumeNumberReset="same"
+    BreakType="chapter"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/A4/Chapters_A4.flpgl"
+    PageNumber="1"
+    PageNumberFormat="decimal"
+    ChapterNumber="6">
+    <TocEntry
+      Title="Scope"
+      Link="/Content/00-UM_Main/02_Preferences/PO_00_Scope.htm" />
+    <TocEntry
+      Title="Optimization Options"
+      Link="/Content/00-UM_Main/02_Preferences/PO_00_Optimization_Options.htm" />
+    <TocEntry
+      Title="Preferences Organization"
+      Link="/Content/00-UM_Main/02_Preferences/PO_00_Org.htm"
+      StartSection="false">
+      <TocEntry
+        Title="Overview of the Preferences Window"
+        Link="/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Overview.htm" />
+      <TocEntry
+        Title="Topic Section Grouping"
+        Link="/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Topic Groups.htm" />
+      <TocEntry
+        Title="Preferences Window Tool Bar"
+        Link="/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Prefs_Toolbar.htm"></TocEntry>
+      <TocEntry
+        Title="Constraints, Flexibility and Penalties"
+        Link="/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Constraints_Flexibility_Penalties.htm" />
+      <TocEntry
+        Title="Topic Dialogs"
+        Link="/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Topic_Dialogs.htm">
+        <TocEntry
+          Title="Opening a Used Preference"
+          Link="/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Topic_Dialogs_Open_Used.htm" />
+        <TocEntry
+          Title="User Interface Fields"
+          Link="/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Topic_Dialogs_UI_Fields.htm" />
+        <TocEntry
+          Title="Adding a New Preference"
+          Link="/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Topic_Dialogs_Add_New_Pref.htm" />
+        <TocEntry
+          Title="Adding a Preference by Loading Template"
+          Link="/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Topic_Dialogs_Add_From_Template.htm" />
+        <TocEntry
+          Title="Individual Preference Tools"
+          Link="/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Topic_Pref_Tools.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Other Preference Tool-Bar Choices"
+        Link="/Content/00-UM_Main/02_Preferences/00_Organization/PO_00_Org_Other_Toolbar_Choices.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Preferences in this Manual"
+      Link="/Content/00-UM_Main/02_Preferences/PO_00_UM_Prefs_Org.htm" />
+    <TocEntry
+      Title="Vehicle Preferences"
+      Link="/Content/00-UM_Main/02_Preferences/PO_01_Veh.htm"
+      SectionNumberReset="same"
+      VolumeNumberReset="same"
+      ChapterNumberReset="same"
+      BreakType="none"
+      PageType="normal"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/A4/Chapters_A4.flpgl">
+      <TocEntry
+        Title="Homogenic Vehicle Schedule"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Homog_Veh_Sched.htm"></TocEntry>
+      <TocEntry
+        Title="Widespread"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Widespread.htm" />
+      <TocEntry
+        Title="Vehicle Types"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Vehicle_Types.htm"></TocEntry>
+      <TocEntry
+        Title="Boarding Time Relaxation"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Boarding_Time_Relaxation.htm"></TocEntry>
+      <TocEntry
+        Title="Absolute Trip Delays"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Absolute_Trip_Delays.htm"></TocEntry>
+      <TocEntry
+        Title="Pre Post Trip"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Pre_Post_Trip.htm"></TocEntry>
+      <TocEntry
+        Title="Schedule Similarity"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Schedule_Similarity.htm"></TocEntry>
+      <TocEntry
+        Title="Weekly Vehicle Similarity"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Weekly_Vehicle_Similarity.htm"></TocEntry>
+      <TocEntry
+        Title="Allow Existing Schedule Assignment"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Allow_Existing_Sched_Assgt.htm"></TocEntry>
+      <TocEntry
+        Title="Fleet Size"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Fleet_Size.htm"></TocEntry>
+      <TocEntry
+        Title="Vehicle Standby Limitation"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Vehicle_Standby_Limitation.htm"></TocEntry>
+      <TocEntry
+        Title="Vehicle Start End Time Limitation"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Vehicle_Start_End_Time_Limitation.htm"></TocEntry>
+      <TocEntry
+        Title="Deadheads Limitation"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Deadheads_Limitation.htm"></TocEntry>
+      <TocEntry
+        Title="Continuous Attendance"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Continuous_Attendance.htm" />
+      <TocEntry
+        Title="Mid Day Park"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Mid_ Day_Park.htm"></TocEntry>
+      <TocEntry
+        Title="Deadheads Filter"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Deadheads_Filter.htm" />
+      <TocEntry
+        Title="Deadheads Generator"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Deadheads_Generator.htm"></TocEntry>
+      <TocEntry
+        Title="Vehicle Distance Limitation"
+        Link="/Content/00-UM_Main/02_Preferences/01_Vehicles/PO_01_Veh_Vehicle_Distance_Limitation.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Driver Preferences"
+      Link="/Content/00-UM_Main/02_Preferences/PO_02_Drv.htm"
+      SectionNumberReset="same"
+      VolumeNumberReset="same"
+      ChapterNumberReset="same"
+      BreakType="none"
+      PageType="normal"
+      PageNumberReset="continue"
+      StartSection="false"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/A4/Chapters_A4.flpgl">
+      <TocEntry
+        Title="Work Limitation"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Work_Limitations.htm" />
+      <TocEntry
+        Title="Duty Types"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Duty_Types.htm" />
+      <TocEntry
+        Title="Driver Duty Work Time"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Driver_ Duty_Work_Time.htm"></TocEntry>
+      <TocEntry
+        Title="Driver Changeover Vehicle"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Driver_Changeover_Vehicle.htm"></TocEntry>
+      <TocEntry
+        Title="Driver Split Duty"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Driver_Split_Duty.htm"></TocEntry>
+      <TocEntry
+        Title="Duty Terminal Stops"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Duty_Terminal_Stops.htm"></TocEntry>
+      <TocEntry
+        Title="Duty Taxi"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Duty_Taxi.htm"></TocEntry>
+      <TocEntry
+        Title="Driver Signing"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Driver_Signing.htm"></TocEntry>
+      <TocEntry
+        Title="Driver Vehicle Preparation"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Driver_Vehicle_Preparation.htm"></TocEntry>
+      <TocEntry
+        Title="Crew Schedule Similarity"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Crew_Schedule_Similarity.htm"></TocEntry>
+      <TocEntry
+        Title="Relief Point"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Relief_Point.htm"></TocEntry>
+      <TocEntry
+        Title="Duty Relief"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Duty_Relief.htm"></TocEntry>
+      <TocEntry
+        Title="Weekly Crew Similarity"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Weekly_Crew_Similarity.htm"></TocEntry>
+      <TocEntry
+        Title="Duty Homogeneity"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Duty_Homogeneity.htm"></TocEntry>
+      <TocEntry
+        Title="Driver Walk"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Driver_Walk.htm"></TocEntry>
+      <TocEntry
+        Title="Driver Standby"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Driver_Standby.htm"></TocEntry>
+      <TocEntry
+        Title="Driver Break"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Driver_Break.htm"></TocEntry>
+      <TocEntry
+        Title="Reposition Duty Start End Tasks For Breaks"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Reposition_Duty_Start_End.htm"></TocEntry>
+      <TocEntry
+        Title="Duty Breaks"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Duty_Breaks.htm"></TocEntry>
+      <TocEntry
+        Title="Taxi To Breaks"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Taxi_To_Breaks.htm"></TocEntry>
+      <TocEntry
+        Title="Custom Duty"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Custom_Duty.htm"></TocEntry>
+      <TocEntry
+        Title="Duty Id Generator"
+        Link="/Content/00-UM_Main/02_Preferences/02_Drivers/PO_02_Drv_Duty_ID_Generator.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Depot Preferences"
+      Link="/Content/00-UM_Main/02_Preferences/PO_03_Dep.htm"
+      SectionNumberReset="same"
+      VolumeNumberReset="same"
+      ChapterNumberReset="same"
+      StartSection="false">
+      <TocEntry
+        Title="Depot Capacity"
+        Link="/Content/00-UM_Main/02_Preferences/03_Depots/PO_03_Dep_Depot_Capacity.htm"></TocEntry>
+      <TocEntry
+        Title="Depot Vehicle Allocation"
+        Link="/Content/00-UM_Main/02_Preferences/03_Depots/PO_03_Dep_Depot_Vehicle_Allocation.htm"></TocEntry>
+      <TocEntry
+        Title="Depot Access"
+        Link="/Content/00-UM_Main/02_Preferences/03_Depots/PO_03_Dep_Depot_Access.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Miscellaneous Settings"
+      Link="/Content/00-UM_Main/02_Preferences/PO_04_Msc.htm"
+      SectionNumberReset="same"
+      VolumeNumberReset="same"
+      ChapterNumberReset="same"
+      StartSection="false">
+      <TocEntry
+        Title="Route Groups"
+        Link="/Content/00-UM_Main/02_Preferences/04_Miscellaneous/PO_04_Msc_Route_Groups.htm"></TocEntry>
+      <TocEntry
+        Title="Stop Groups"
+        Link="/Content/00-UM_Main/02_Preferences/04_Miscellaneous/PO_04_Msc_Stop_Groups.htm"></TocEntry>
+      <TocEntry
+        Title="Deadhead Catalog"
+        Link="/Content/00-UM_Main/02_Preferences/04_Miscellaneous/PO_04_Msc_Deadhead_Catalog.htm"></TocEntry>
+      <TocEntry
+        Title="Taxi Catalog"
+        Link="/Content/00-UM_Main/02_Preferences/04_Miscellaneous/PO_04_Msc_Taxi_Catalog.htm"></TocEntry>
+      <TocEntry
+        Title="Taxi Schedule"
+        Link="/Content/00-UM_Main/02_Preferences/04_Miscellaneous/PO_04_Msc_Taxi_Schedule.htm"></TocEntry>
+      <TocEntry
+        Title="Costs"
+        Link="/Content/00-UM_Main/02_Preferences/04_Miscellaneous/PO_04_Msc_Costs.htm"></TocEntry>
+      <TocEntry
+        Title="Places Grouping"
+        Link="/Content/00-UM_Main/02_Preferences/04_Miscellaneous/PO_04_Msc_Places_Grouping.htm"></TocEntry>
+      <TocEntry
+        Title="Export Formats"
+        Link="/Content/00-UM_Main/02_Preferences/04_Miscellaneous/PO_04_Msc_Export_Formats.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>
