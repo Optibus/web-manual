@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="Publish to source control."
+  Host="ftp.myftpserver.com"
+  User="MyAccountId"
+  Password=""
+  Directory="C:\Users\Flare Optibus\Desktop\UM_OnSchedule"
+  Port=""
+  ViewUrl="http://www.madcapsoftware.com/"
+  Type="scm"
+  ProviderType="Git"
+  Database="file:///C:/Users/Flare Optibus/Desktop/UM_OnSchedule/.git"
+  DatabaseRoot="file:///C:/Users/Flare Optibus/Desktop/UM_OnSchedule"
+  PushToRemote="true"
+  RemoteRepository="origin"
+  UploadLogFile="false"
+  RemoveStale="false"
+  ChangedOnly="false"></CatapultDestination>

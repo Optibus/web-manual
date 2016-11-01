@@ -1,6 +1,6 @@
-/* MadCap Table Style: */
-
 /*<meta Version="9" />*/
+
+/* MadCap Table Style: */
 
 @media print
 {
@@ -124,9 +124,8 @@ mcTableBodyStyle
 	ruler-width: 1px;
 }
 
-
 /* Cell Styles: */
- 
+
 @media print
 {
 	.TableStyle-Template_List
@@ -760,4 +759,273 @@ mcTableBodyStyle
 	
 }
 
+mcTableStyle
+{
+	
+}
+
+mcTableColumnStyle
+{
+	cell-content-style-class: TableTextSmall;
+	cell-content-style-tag: p;
+}
+
+mcTableHeadStyle
+{
+	background-color: #add8e6;
+}
+
+mcTableBodyStyle
+{
+	ruler-style: solid;
+	ruler-width: 1px;
+}
+
+.TableStyle-Template_List
+{
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-Template_List-HeadI-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadE-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadF-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadH-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadD-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadC-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadB-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadA-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadG-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-BodyI-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Template_List-BodyH-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Template_List-BodyG-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+mcTableStyle
+{
+	
+}
+
+mcTableColumnStyle
+{
+	cell-content-style-class: TableTextSmall;
+	cell-content-style-tag: p;
+}
+
+mcTableHeadStyle
+{
+	background-color: #add8e6;
+}
+
+mcTableBodyStyle
+{
+	ruler-style: solid;
+	ruler-width: 1px;
+}
+
+.TableStyle-Template_List
+{
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-Template_List-HeadI-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadE-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadF-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadH-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadD-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadC-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadB-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadA-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadG-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-BodyI-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Template_List-BodyH-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Template_List-BodyG-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+mcTableStyle
+{
+	
+}
+
+mcTableColumnStyle
+{
+	cell-content-style-class: TableTextSmall;
+	cell-content-style-tag: p;
+}
+
+mcTableHeadStyle
+{
+	background-color: #add8e6;
+}
+
+mcTableBodyStyle
+{
+	ruler-style: solid;
+	ruler-width: 1px;
+}
+
+.TableStyle-Template_List
+{
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-Template_List-HeadI-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadE-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadF-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadH-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadD-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadC-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadB-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadA-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-HeadG-Column1-Header1
+{
+	background-color: #add8e6;
+}
+
+.TableStyle-Template_List-BodyI-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Template_List-BodyH-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.TableStyle-Template_List-BodyG-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
 
